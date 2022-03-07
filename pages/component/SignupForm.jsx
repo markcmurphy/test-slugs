@@ -84,7 +84,7 @@ function NumberList(props) {
   );
 }
 
-export const SignupForm = () => {
+const SignupForm = () => {
   const [errors, setErrors] = useState([]);
 
   return (
@@ -132,3 +132,6 @@ export const SignupForm = () => {
     </>
   );
 };
+
+export { SignupForm };
+
