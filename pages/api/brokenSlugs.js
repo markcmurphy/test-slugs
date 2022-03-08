@@ -93,8 +93,7 @@ export default async function handler(req, res) {
             `https://stoplight.io/api/v1/projects/${element}/nodes/${slug}?branch=${branchId}`
           )
             .then((response) => response.json())
-            .then(
-              //   (result) => console.log(result)
+            .then((result) =>
               // prettier-ignore
               redirectLineArr.push(`${resultCSV(result)[0].to} /${resultCSV(result)[0].to.split('/')[1]}/${result.slug} 302`)
             )
