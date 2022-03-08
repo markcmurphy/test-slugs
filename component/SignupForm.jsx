@@ -97,6 +97,7 @@ const SignupForm = () => {
         }}
 
         onSubmit={async (values, { setSubmitting }) => {
+          console.log("🚀 ~ file: SignupForm.jsx ~ line 112 ~ onSubmit={ ~ values", values)
 
           async function postData(url = '', data = {}) {
             const response = await fetch(url, {
@@ -117,11 +118,11 @@ const SignupForm = () => {
             type="text"
             placeholder="new-branch"
           />
-          <MySelect label="Project" name="projectId">
+          {/* <MySelect label="Project" name="projectId">
             <option value="">Select a project</option>
             <option value="cHJqOjIwNjAz">API-Reference</option>
             <option value="cHJqOjI4MDIz">DevDocs</option>
-          </MySelect>
+          </MySelect> */}
           <br></br>
           <button type="submit">Submit</button>
         </Form>
