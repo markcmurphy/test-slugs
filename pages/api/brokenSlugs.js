@@ -71,6 +71,10 @@ export default async function handler(req, res) {
         let errors = idArray.filter(
           (slug) => masterArray.includes(slug) !== true
         );
+        console.log(
+          '🚀 ~ file: brokenSlugs.js ~ line 74 ~ checkTocSlugs ~ errors',
+          errors
+        );
 
         let oldSlugs = masterArray.filter(
           (slug) => idArray.includes(slug) !== true
@@ -83,6 +87,10 @@ export default async function handler(req, res) {
 
           const searchArray = csvArray.filter((obj) =>
             Object.values(obj).some((val) => val.includes(searchSlug))
+          );
+          console.log(
+            '🚀 ~ file: brokenSlugs.js ~ line 91 ~ resultCSV ~ searchArray',
+            searchArray
           );
 
           return searchArray;

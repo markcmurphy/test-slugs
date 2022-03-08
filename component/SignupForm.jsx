@@ -17,21 +17,6 @@ const MyTextInput = ({ label, ...props }) => {
   );
 };
 
-const MyCheckbox = ({ children, ...props }) => {
-  const [field, meta] = useField({ ...props, type: 'checkbox' });
-  return (
-    <>
-      <label className="checkbox">
-        <input {...field} {...props} type="checkbox" />
-        {children}
-      </label>
-      {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
-      ) : null}
-    </>
-  );
-};
-
 // Styled components ....
 const StyledSelect = styled.select`
   color: var(--blue);
@@ -86,6 +71,7 @@ function NumberList(props) {
 
 const SignupForm = () => {
   const [errors, setErrors] = useState([]);
+  const [errorDisplay, setErrorDisplay] = useState('');
 
   return (
     <>
@@ -93,20 +79,23 @@ const SignupForm = () => {
       <Formik
         initialValues={{
           branch: '',
-          projectId: '', 
+          projectId: '',
         }}
-
         onSubmit={async (values, { setSubmitting }) => {
-          console.log("🚀 ~ file: SignupForm.jsx ~ line 112 ~ onSubmit={ ~ values", values)
+          console.log(
+            '🚀 ~ file: SignupForm.jsx ~ line 112 ~ onSubmit={ ~ values',
+            values
+          );
 
           async function postData(url = '', data = {}) {
             const response = await fetch(url, {
-              method: 'POST', 
-              body: JSON.stringify(data), 
+              method: 'POST',
+              body: JSON.stringify(data),
             });
-            return response.json(); 
+            return response.json();
           }
           const result = await postData('/api/brokenSlugs', values);
+          result.length ? setErrorDisplay('Results:') : setErrorDisplay('No results found!') 
           setErrors(result);
           setSubmitting(false);
         }}
@@ -127,8 +116,11 @@ const SignupForm = () => {
           <button type="submit">Submit</button>
         </Form>
       </Formik>
+      {/* <div style={{ display: errors.length ? 'block' : 'none' }}> */}
       <div>
-        <NumberList numbers={errors}/>
+        {/* style={{ display: showInfo ? 'block' : 'none' }} */}
+        {errorDisplay}
+        <NumberList numbers={errors} />
       </div>
     </>
   );
