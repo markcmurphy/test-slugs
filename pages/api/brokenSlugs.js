@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     let projectId = JSON.parse(req.body).projectId;
     let branchId = JSON.parse(req.body).branch;
 
-    // given a table of contents, return an array of node IDs
+    // * given a table of contents, return an array of node IDs
     async function printSlugs(toc) {
       function copy(o) {
         return Object.assign({}, o);
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
     }
 
     // fetch a TOC for a given project and branch, then run printSlugs to return array of IDs
-    async function getToc(projectId, branchId) {
+    async function getToc(projId, branchId) {
       function manageErrors(response) {
         if (!response.ok) {
           if (response.status == 404) {
@@ -48,25 +48,21 @@ export default async function handler(req, res) {
         return response;
       }
 
-      return (
-        fetch(
-          `https://stoplight.io/api/v1/projects/${projectId}/table-of-contents?branch=${branchId}`
-        )
-          // .then(manageErrors)
-          .then((response) => response.json())
-          .then((data) => printSlugs(data))
-          .catch((error) => console.log(error))
-      );
+      return fetch(
+        `https://stoplight.io/api/v1/projects/${projId}/table-of-contents?branch=${branchId}`
+      )
+        .then((response) => response.json())
+        .then((data) => printSlugs(data))
+        .catch((error) => console.log(error));
     }
 
     // * check multiple table of contents against a master/main branch to detect changes in IDs
-    async function checkTocSlugs(projectId, branchId) {
-      // * loop over project IDs
+    async function checkTocSlugs(projectIdArr, branchId) {
+      const redirectLineArr = [];
 
-      let redirectLineArr = [];
-
-      for (let i = 0; i < projectId.length; i++) {
-        const element = projectId[i];
+      //   * loop over project IDs
+      for (let i = 0; i < projectIdArr.length; i++) {
+        const element = projectIdArr[i];
 
         const idArray = await getToc(element, branchId);
         const masterArray = await getToc(element, 'master');
@@ -82,59 +78,45 @@ export default async function handler(req, res) {
 
         const csvArray = csvToArray(redirects);
 
-        // * ID of slug that will be replaced
-        const search = `b3A6MTI3MjY3MjE`;
+        const resultCSV = (search) => {
+          let searchSlug = search.slug.split('-').slice(1).join('-');
 
-        const resultCSV = csvArray.filter((obj) =>
-          Object.values(obj).some((val) => val.includes(search))
-        );
+          const searchArray = csvArray.filter((obj) =>
+            Object.values(obj).some((val) => val.includes(searchSlug))
+          );
 
-        // function redirectLine(result) {
-        //   //   console.log(result.slug);
-        //   redirectLineArr.push(
-        //     `${resultCSV[0].to} /${resultCSV[0].to.split('/')[1]}/${
-        //       result.slug
-        //     } 302`
-        //   );
-        //   console.log(redirectLineArr);
-        // }
+          return searchArray;
+        };
 
         errors?.forEach((slug) => {
           fetch(
             `https://stoplight.io/api/v1/projects/${element}/nodes/${slug}?branch=${branchId}`
           )
-            // .then(manageErrors)
             .then((response) => response.json())
-            // .then((result) => result.slug)
-            // .then((result) => redirectLine(result))
-            .then((result) =>
-              redirectLineArr.push(
-                `${resultCSV[0].to} /${resultCSV[0].to.split('/')[1]}/${
-                  result.slug
-                } 302`
-              )
+            .then(
+              //   (result) => console.log(result)
+              // prettier-ignore
+              redirectLineArr.push(`${resultCSV(result)[0].to} /${resultCSV(result)[0].to.split('/')[1]}/${result.slug} 302`)
             )
-            // .then((result) => console.log(JSON.stringify(result)))
-            // .then((result) => result)
             .catch((error) => console.log(error));
         });
 
-        // return redirectLineArr.length >= 0 ? redirectLineArr : null;
         // * end project ID loop
+        console.log(
+          '🚀 ~ file: brokenSlugs.js ~ line 114 ~ checkTocSlugs ~ redirectLineArr',
+          redirectLineArr
+        );
       }
       return redirectLineArr;
     }
 
-    let apiRef = 'cHJqOjIwNjAz';
-    let devDocs = 'cHJqOjI4MDIz';
-    let testBranch = 'filter-test-branch';
+    // let apiRef = 'cHJqOjIwNjAz';
+    // let devDocs = 'cHJqOjI4MDIz';
 
-    let projectIdArr = [apiRef, devDocs];
+    let projectIdArr = ['cHJqOjIwNjAz', 'cHJqOjI4MDIz'];
 
     const toSend = await checkTocSlugs(projectIdArr, branchId);
-    // console.log(toSend);
 
-    // console.log(toSend);
     res.send(toSend);
   }
 }
