@@ -220,7 +220,8 @@ export let redirects = `from to type
 /api-reference/store-management/catalog/category/getcategories   /api-reference/b3A6MzU5MDQzNTk-get-all-categories   302
 /api-reference/store-management/catalog/category/createcategory   /api-reference/b3A6MzU5MDQzNjA-create-a-category   302
 /api-reference/store-management/catalog/category/deletecategories   /api-reference/b3A6MzU5MDQzNjE-delete-categories   302
-/api-reference/store-management/catalog/category/getcategorybyid   /api-reference/b3A6MjMxMzU3MQ-get-a-category   302
+/api-reference/store-management/catalog/category/getcategorybyid   /api-reference/b3A6NDIxMTM2NjM-get-a-category   302
+/api-reference/b3A6MjMxMzU3MQ-get-a-category   /api-reference/b3A6NDIxMTM2NjM-get-a-category   302 
 /api-reference/store-management/catalog/category/updatecategory   /api-reference/b3A6MjMxMzU3Mg-update-a-category   302
 /api-reference/store-management/catalog/category/deletecategorybyid   /api-reference/b3A6MjMxMzU3Mw-delete-a-category   302
 /api-reference/store-management/catalog/category/getcategorytree   /api-reference/b3A6MzU5MDQzNjk-get-category-tree   302
@@ -824,8 +825,9 @@ export let redirects = `from to type
 /stencil-docs/customizing-checkout/optimized-one-page-checkout   /stencil-docs/ZG9jOjIyMDY4MA-restyle-optimized-one-page-checkout   302
 /stencil-docs/customizing-checkout/checkout-confirmation-injection   /stencil-docs/ZG9jOjIyMDY3Nw-checkout-confirmation-injection-options   302
 /stencil-docs/customizing-checkout/checkout-sdk   /stencil-docs/ZG9jOjIyMDU5MA-checkout-sdk   302
-/stencil-docs/customizing-checkout/checkout-sdk-quickstart   /stencil-docs/ZG9jOjIyMDY3OA-checkout-sdk-tutorial   302
+/stencil-docs/customizing-checkout/checkout-sdk-quickstart   /stencil-docs/ZG9jOjIyMDY3OQ-checkout-sdk-tutorial   302
 /stencil-docs/customizing-checkout/installing-custom-checkouts   /stencil-docs/ZG9jOjEyNDYxODQ-installing-a-custom-checkout   302
+/stencil-docs/customizing-checkout/installing-custom-order-confirmation-pages   /stencil-docs/ZG9jOjEzODY0NjQ1-installing-custom-order-confirmation-pages   302
 /stencil-docs/page-builder/schema-settings/alignment   /stencil-docs/c2NoOjM0NzUzMjY4-alignment   302
 /stencil-docs/page-builder/schema-settings/boolean   /stencil-docs/c2NoOjM0NzUzMjY3-boolean   302
 /stencil-docs/page-builder/schema-settings/box-model   /stencil-docs/c2NoOjM0NzUzMjY2-box-model   302
@@ -1332,7 +1334,7 @@ export let redirects = `from to type
 /api/v3   /api-docs   301
 /api/v3/storefront.html   /api-docs/storefront/overview   301
 /api/webhooks-getting-started   /api-docs/store-management/webhooks/overview   301
-/bigcommerce-for-wordpress/changelog/plugin-changelog   https:plugins.trac.wordpress.org/browser/bigcommerce/trunk/CHANGELOG.md?order=name   301
+/bigcommerce-for-wordpress/changelog/plugin-changelog   https://plugins.trac.wordpress.org/browser/bigcommerce/trunk/CHANGELOG.md?order=name   301
 /graphql   /graphql-playground   301
 /stencil-docs/adding-event-hooks-to-your-theme   /stencil-docs/javascript-and-event-hooks/event-hooks   301
 /stencil-docs/adding-event-hooks-to-your-theme/data-tags-event-hooks-reference   /stencil-docs/javascript-and-event-hooks/event-hooks   301
@@ -1505,12 +1507,12 @@ export let redirects = `from to type
 /stencil-docs/stencil-theme-editor/config-json-metadata   /stencil-docs/page-builder/defining-global-styles   301
 /stencil-docs/stencil-theme-editor/configuring-stencil-theme-editor   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/stencil-theme-editor/preparing-thumbnail-images   /stencil-docs/deploying-a-theme/preparing-thumbnail-images   301
-/stencil-docs/stencil-theme-editor/schema-json-metadata   https:github.com/bigcommerce/cornerstone/blob/master/schema.json   301
+/stencil-docs/stencil-theme-editor/schema-json-metadata   https://github.com/bigcommerce/cornerstone/blob/master/schema.json   301
 /stencil-docs/stencil-theme-editor/stencil-theme-editor-overview   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/store-design/config-json-metadata   /stencil-docs/page-builder/defining-global-styles   301
 /stencil-docs/store-design/configuring-store-design   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/store-design/preparing-thumbnail-images   /stencil-docs/deploying-a-theme/preparing-thumbnail-images   301
-/stencil-docs/store-design/schema-json-metadata   https:github.com/bigcommerce/cornerstone/blob/master/schema.json   301
+/stencil-docs/store-design/schema-json-metadata   https://github.com/bigcommerce/cornerstone/blob/master/schema.json   301
 /stencil-docs/store-design/store-design-overview   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/template-files   /stencil-docs/storefront-customization/custom-templates   301
 /stencil-docs/template-files/custom-templates   /stencil-docs/storefront-customization/custom-templates   301
@@ -1643,6 +1645,7 @@ export let redirects = `from to type
 /bigcommerce-for-wordpress/extending-the-plugin/proxy-rest-api-endpoints   /bigcommerce-for-wordpress/ZG9jOjIyMDYyOQ-proxy-rest-api-endpoints   302
 /bigcommerce-for-wordpress/extending-the-plugin/code-reference   /bigcommerce-for-wordpress/ZG9jOjIyMDYyNg-code-reference   302
 /bigcommerce-for-wordpress/extending-the-plugin/multi-channel-capabilities   /bigcommerce-for-wordpress/ZG9jOjIyMDYyOA-multi-channel-capabilities   302
+/bigcommerce-for-wordpress/extending-the-plugin/cron-jobs   /bigcommerce-for-wordpress/ZG9jOjQ1MjA3MTQ2-creating-reliable-cron-jobs   302
 /bigcommerce-for-wordpress/changelog/plugin-changelog   /bigcommerce-for-wordpress/ZG9jOjIyMDYyNA-big-commerce-for-wordpress-changelog   302
 /legacy/v2-products/v2-v3   /legacy/ZG9jOjIyMDY3Mw-v2-versus-v3   302
 /legacy/v2-catalog-products/v2-product-sku   /legacy/ZG9jOjIyMDY3MA-sku   302
