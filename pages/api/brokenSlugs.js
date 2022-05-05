@@ -23,8 +23,12 @@ export default async function handler(req, res) {
           if (typeof obj[k] === 'object') {
             await printAllVals(obj[k]);
           } else {
-            if (k == 'id') {
+            if (k == 'id' && obj[k].match(/\b[bc]/g) == null) {
+              // if (k == 'id') {
+              // if (obj[k].match(/\b[bc]/g) == null) {
+              console.log(obj[k]);
               newArr.push(obj[k]);
+              // }
             }
           }
         }
@@ -80,17 +84,19 @@ export default async function handler(req, res) {
 
         const resultCSV = (search) => {
           let searchSlug = search.slug.split('-').slice(1).join('-');
-          console.log(
-            '🚀 ~ file: brokenSlugs.js ~ line 83 ~ resultCSV ~ searchSlug',
-            searchSlug
-          );
 
           const searchArray = csvArray.filter((obj) =>
             Object.values(obj).some((val) => val.includes(searchSlug))
           );
 
+          // if (search == 'to') {
+          //   return;
+          // } else {
           return searchArray;
         };
+
+        // return search == 'to' ? searchArray : null;
+        // };
 
         errors?.forEach((slug) => {
           fetch(
@@ -99,7 +105,7 @@ export default async function handler(req, res) {
             .then((response) => response.json())
             .then((result) =>
               // prettier-ignore
-              redirectLineArr.push(`${resultCSV(result)[0].to} /${resultCSV(result)[0].to.split('/')[1]}/${result.slug} 302`)
+              resultCSV(result)[0].to ? redirectLineArr.push(`${resultCSV(result)[0].to} /${resultCSV(result)[0].to.split('/')[1]}/${result.slug} 302`) : null
             )
             .catch((error) => console.log(error));
         });
