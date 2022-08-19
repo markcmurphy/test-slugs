@@ -1,0 +1,4997 @@
+[
+  { "title": "Storefront APIs" },
+  {
+    "id": "239aeabf5a786",
+    "title": "Carts",
+    "type": "http_service",
+    "slug": "239aeabf5a786-storefront-carts",
+    "meta": "",
+    "items": [
+      {
+        "title": "Cart",
+        "items": [
+          {
+            "id": "213ddc6deee1f",
+            "title": "Get a Cart",
+            "type": "http_operation",
+            "slug": "213ddc6deee1f-get-a-cart",
+            "meta": "get"
+          },
+          {
+            "id": "64146ee5895b2",
+            "title": "Create a Cart",
+            "type": "http_operation",
+            "slug": "64146ee5895b2-create-a-cart",
+            "meta": "post"
+          },
+          {
+            "id": "438482d6ec964",
+            "title": "Delete a Cart",
+            "type": "http_operation",
+            "slug": "438482d6ec964-delete-a-cart",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Cart Items",
+        "items": [
+          {
+            "id": "6b15c26ac7d24",
+            "title": "Add Cart Line Items",
+            "type": "http_operation",
+            "slug": "6b15c26ac7d24-add-cart-line-items",
+            "meta": "post"
+          },
+          {
+            "id": "03d5e700af2c1",
+            "title": "Update Cart Line Item",
+            "type": "http_operation",
+            "slug": "03d5e700af2c1-update-cart-line-item",
+            "meta": "put"
+          },
+          {
+            "id": "3e7b1a76f74fa",
+            "title": "Delete Cart Line Item",
+            "type": "http_operation",
+            "slug": "3e7b1a76f74fa-delete-cart-line-item",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Cart Currency",
+        "items": [
+          {
+            "id": "2bbc2293e25ea",
+            "title": "Update Cart Currency",
+            "type": "http_operation",
+            "slug": "2bbc2293e25ea-update-cart-currency",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "58ca213e71798",
+    "title": "Checkouts",
+    "type": "http_service",
+    "slug": "58ca213e71798-storefront-checkouts",
+    "meta": "",
+    "items": [
+      {
+        "title": "Checkout",
+        "items": [
+          {
+            "id": "91f03b266ddb6",
+            "title": "Get a Checkout",
+            "type": "http_operation",
+            "slug": "91f03b266ddb6-get-a-checkout",
+            "meta": "get"
+          },
+          {
+            "id": "77065ea992c7e",
+            "title": "Update Customer Messages",
+            "type": "http_operation",
+            "slug": "77065ea992c7e-update-customer-messages",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Billing Address",
+        "items": [
+          {
+            "id": "071c47f5cdf02",
+            "title": "Add Checkout Billing Address",
+            "type": "http_operation",
+            "slug": "071c47f5cdf02-add-checkout-billing-address",
+            "meta": "post"
+          },
+          {
+            "id": "15363e93fc8cf",
+            "title": "Update Checkout Billing Address",
+            "type": "http_operation",
+            "slug": "15363e93fc8cf-update-checkout-billing-address",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Cart Items",
+        "items": [
+          {
+            "id": "f713e642d9b8a",
+            "title": "Update a Line Item",
+            "type": "http_operation",
+            "slug": "f713e642d9b8a-update-a-line-item",
+            "meta": "put"
+          },
+          {
+            "id": "6f1f6c20acd1c",
+            "title": "Delete a Line Item",
+            "type": "http_operation",
+            "slug": "6f1f6c20acd1c-delete-a-line-item",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Consignments",
+        "items": [
+          {
+            "id": "38f5f7e2bcb04",
+            "title": "Create a Consignment",
+            "type": "http_operation",
+            "slug": "38f5f7e2bcb04-create-a-consignment",
+            "meta": "post"
+          },
+          {
+            "id": "68accc5f14783",
+            "title": "Update a Consignment",
+            "type": "http_operation",
+            "slug": "68accc5f14783-update-a-consignment",
+            "meta": "put"
+          },
+          {
+            "id": "4204dc29cdce7",
+            "title": "Delete a Consignment",
+            "type": "http_operation",
+            "slug": "4204dc29cdce7-delete-a-consignment",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Coupons",
+        "items": [
+          {
+            "id": "92da13659bc85",
+            "title": "Add Coupon to Checkout",
+            "type": "http_operation",
+            "slug": "92da13659bc85-add-coupon-to-checkout",
+            "meta": "post"
+          },
+          {
+            "id": "600fd995ef2b7",
+            "title": "Delete Checkout Coupon",
+            "type": "http_operation",
+            "slug": "600fd995ef2b7-delete-checkout-coupon",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Gift Certificates",
+        "items": [
+          {
+            "id": "984c88124a781",
+            "title": "Add Gift Certificate to Checkout",
+            "type": "http_operation",
+            "slug": "984c88124a781-add-gift-certificate-to-checkout",
+            "meta": "post"
+          },
+          {
+            "id": "dbc2462cac78b",
+            "title": "Delete Gift Certificate",
+            "type": "http_operation",
+            "slug": "dbc2462cac78b-delete-gift-certificate",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Spam Protection",
+        "items": [
+          {
+            "id": "c5a800467d47c",
+            "title": "Checkout Spam Protection",
+            "type": "http_operation",
+            "slug": "c5a800467d47c-checkout-spam-protection",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Store Credit",
+        "items": [
+          {
+            "id": "a96a4bf793716",
+            "title": "Add Store Credit",
+            "type": "http_operation",
+            "slug": "a96a4bf793716-add-store-credit",
+            "meta": "post"
+          },
+          {
+            "id": "fedc151a7b6e2",
+            "title": "Remove Store Credit",
+            "type": "http_operation",
+            "slug": "fedc151a7b6e2-remove-store-credit",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff3ae987bf8c7",
+    "title": "Cookie Consent",
+    "type": "http_service",
+    "slug": "ff3ae987bf8c7-storefront-cookie-consent",
+    "meta": "",
+    "items": [
+      {
+        "title": "Consent",
+        "items": [
+          {
+            "id": "6fc489ff8267a",
+            "title": "Set Cookie Consent Preferences",
+            "type": "http_operation",
+            "slug": "6fc489ff8267a-set-cookie-consent-preferences",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "238b827db1f9e",
+    "title": "Current Customers",
+    "type": "http_service",
+    "slug": "238b827db1f9e-current-customer",
+    "meta": "",
+    "items": [
+      {
+        "title": "Current Customers",
+        "items": [
+          {
+            "id": "766da87d99a41",
+            "title": "Get Current Customer",
+            "type": "http_operation",
+            "slug": "766da87d99a41-get-current-customer",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7e6e8a73d6a9",
+    "title": "Customers",
+    "type": "http_service",
+    "slug": "e7e6e8a73d6a9-storefront-customers",
+    "meta": "",
+    "items": [
+      {
+        "title": "Customers",
+        "items": [
+          {
+            "id": "a166233a81c26",
+            "title": "Creates a Customer",
+            "type": "http_operation",
+            "slug": "a166233a81c26-creates-a-customer",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1c75a7a2038d4",
+    "title": "Customer Login SSO",
+    "type": "article",
+    "slug": "1c75a7a2038d4-customer-login-sso",
+    "meta": ""
+  },
+  {
+    "id": "7c0471ba5c4b8",
+    "title": "Customer Login",
+    "type": "http_service",
+    "slug": "7c0471ba5c4b8-customer-login-sso",
+    "meta": "",
+    "items": [
+      {
+        "title": "Login Token",
+        "items": [
+          {
+            "id": "78aacc0954b2c",
+            "title": "Login Token",
+            "type": "http_operation",
+            "slug": "78aacc0954b2c-login-token",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "691071a947c2b",
+    "title": "Form Fields",
+    "type": "http_service",
+    "slug": "691071a947c2b-storefront-form-fields-beta",
+    "meta": "",
+    "items": [
+      {
+        "title": "Form Fields",
+        "items": [
+          {
+            "id": "3c681bab90a14",
+            "title": "Get Form Fields",
+            "type": "http_operation",
+            "slug": "3c681bab90a14-get-form-fields",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "af51150764127",
+    "title": "Email Subscriptions",
+    "type": "http_service",
+    "slug": "af51150764127-storefront-subscriptions",
+    "meta": "",
+    "items": [
+      {
+        "title": "Subscription",
+        "items": [
+          {
+            "id": "5d14574c64ef6",
+            "title": "Create a Subscription",
+            "type": "http_operation",
+            "slug": "5d14574c64ef6-create-a-subscription",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7d7597cac0451",
+    "title": "Orders",
+    "type": "http_service",
+    "slug": "7d7597cac0451-storefront-orders",
+    "meta": "",
+    "items": [
+      {
+        "title": "Order",
+        "items": [
+          {
+            "id": "f40f1f75f3e00",
+            "title": "Get Order",
+            "type": "http_operation",
+            "slug": "f40f1f75f3e00-get-order",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  { "title": "GraphQL" },
+  {
+    "id": "35bac0e4eda61",
+    "title": "GraphQL Storefront API",
+    "type": "article",
+    "slug": "35bac0e4eda61-graph-ql-storefront-api",
+    "meta": ""
+  },
+  {
+    "title": "GraphQL Storefront API Reference",
+    "url": "https://developer.bigcommerce.com/graphql-api-reference"
+  },
+  { "title": "Management APIs" },
+  {
+    "id": "86a520e30c284",
+    "title": "Abandoned Carts",
+    "type": "http_service",
+    "slug": "86a520e30c284-abandoned-carts",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Abandoned Carts",
+        "items": [
+          {
+            "id": "ca763c84d3a31",
+            "title": "Get an Abandoned Cart",
+            "type": "http_operation",
+            "slug": "ca763c84d3a31-get-an-abandoned-cart",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Abandoned Cart Settings",
+        "items": [
+          {
+            "id": "425e3116be6d9",
+            "title": "Get Global Abandoned Cart Settings",
+            "type": "http_operation",
+            "slug": "425e3116be6d9-get-global-abandoned-cart-settings",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Abandoned Carts Settings",
+        "items": [
+          {
+            "id": "5a7b775199b5a",
+            "title": "Update Global Abandoned Cart Settings",
+            "type": "http_operation",
+            "slug": "5a7b775199b5a-update-global-abandoned-cart-settings",
+            "meta": "put"
+          },
+          {
+            "id": "6f49cb7dbc21f",
+            "title": "Get Channel Abandoned Cart Settings",
+            "type": "http_operation",
+            "slug": "6f49cb7dbc21f-get-channel-abandoned-cart-settings",
+            "meta": "get"
+          },
+          {
+            "id": "09c037d550d5a",
+            "title": "Update Channel Abandoned Cart Settings",
+            "type": "http_operation",
+            "slug": "09c037d550d5a-update-channel-abandoned-cart-settings",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "212993fbb25fc",
+    "title": "Abandoned Cart Emails (Beta)",
+    "type": "http_service",
+    "slug": "212993fbb25fc-abandoned-cart-emails",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Abandoned Cart Emails",
+        "items": [
+          {
+            "id": "fdd5f07965d06",
+            "title": "Get all email templates",
+            "type": "http_operation",
+            "slug": "fdd5f07965d06-get-all-email-templates",
+            "meta": "get"
+          },
+          {
+            "id": "6e5b2458c07e4",
+            "title": "Create email template",
+            "type": "http_operation",
+            "slug": "6e5b2458c07e4-create-email-template",
+            "meta": "post"
+          },
+          {
+            "id": "9531e71c164be",
+            "title": "Get an email template",
+            "type": "http_operation",
+            "slug": "9531e71c164be-get-an-email-template",
+            "meta": "get"
+          },
+          {
+            "id": "19b47fe4d5cc8",
+            "title": "Update an email template",
+            "type": "http_operation",
+            "slug": "19b47fe4d5cc8-update-an-email-template",
+            "meta": "put"
+          },
+          {
+            "id": "82ab68dd9d47b",
+            "title": "Delete email template",
+            "type": "http_operation",
+            "slug": "82ab68dd9d47b-delete-email-template",
+            "meta": "delete"
+          },
+          {
+            "id": "9c7f85fecb060",
+            "title": "Get default email template",
+            "type": "http_operation",
+            "slug": "9c7f85fecb060-get-default-email-template",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Template settings",
+        "items": [
+          {
+            "id": "86127c82f2231",
+            "title": "Get email template settings",
+            "type": "http_operation",
+            "slug": "86127c82f2231-get-email-template-settings",
+            "meta": "get"
+          },
+          {
+            "id": "3994335096c68",
+            "title": "Update email template settings",
+            "type": "http_operation",
+            "slug": "3994335096c68-update-email-template-settings",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "89019d490c6f8",
+    "title": "Carts",
+    "type": "http_service",
+    "slug": "89019d490c6f8-carts",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Cart Items",
+        "items": [
+          {
+            "id": "ffd397374d154",
+            "title": "Add Cart Line Items",
+            "type": "http_operation",
+            "slug": "ffd397374d154-add-cart-line-items",
+            "meta": "post"
+          },
+          {
+            "id": "81dc643c60052",
+            "title": "Update Cart Line Item",
+            "type": "http_operation",
+            "slug": "81dc643c60052-update-cart-line-item",
+            "meta": "put"
+          },
+          {
+            "id": "6ccaf4fd5d56a",
+            "title": "Delete Cart Line Item",
+            "type": "http_operation",
+            "slug": "6ccaf4fd5d56a-delete-cart-line-item",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Cart Redirect URLs",
+        "items": [
+          {
+            "id": "ac0a56645afa2",
+            "title": "Create Cart Redirect URL",
+            "type": "http_operation",
+            "slug": "ac0a56645afa2-create-cart-redirect-url",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Carts Settings",
+        "items": [
+          {
+            "id": "88320d6c88313",
+            "title": "Get Global Cart Settings",
+            "type": "http_operation",
+            "slug": "88320d6c88313-get-global-cart-settings",
+            "meta": "get"
+          },
+          {
+            "id": "b8104cdae7d89",
+            "title": "Update Global Cart Settings",
+            "type": "http_operation",
+            "slug": "b8104cdae7d89-update-global-cart-settings",
+            "meta": "put"
+          },
+          {
+            "id": "325f1619b9d07",
+            "title": "Get Channel Cart Settings",
+            "type": "http_operation",
+            "slug": "325f1619b9d07-get-channel-cart-settings",
+            "meta": "get"
+          },
+          {
+            "id": "921730bd3d66d",
+            "title": "Update Channel Cart Settings",
+            "type": "http_operation",
+            "slug": "921730bd3d66d-update-channel-cart-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Cart",
+        "items": [
+          {
+            "id": "20c2c55c1763f",
+            "title": "Create a Cart",
+            "type": "http_operation",
+            "slug": "20c2c55c1763f-create-a-cart",
+            "meta": "post"
+          },
+          {
+            "id": "eb3777c8094b0",
+            "title": "Get a Cart",
+            "type": "http_operation",
+            "slug": "eb3777c8094b0-get-a-cart",
+            "meta": "get"
+          },
+          {
+            "id": "3c3bd669000e7",
+            "title": "Update Customer ID",
+            "type": "http_operation",
+            "slug": "3c3bd669000e7-update-customer-id",
+            "meta": "put"
+          },
+          {
+            "id": "9ce57d21efb62",
+            "title": "Delete a Cart",
+            "type": "http_operation",
+            "slug": "9ce57d21efb62-delete-a-cart",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f176e7aec547a",
+    "title": "Catalog",
+    "type": "http_service",
+    "slug": "f176e7aec547a-catalog",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Brands",
+        "items": [
+          {
+            "id": "c2610608c20c8",
+            "title": "Get All Brands",
+            "type": "http_operation",
+            "slug": "c2610608c20c8-get-all-brands",
+            "meta": "get"
+          },
+          {
+            "id": "45dd27f2314f6",
+            "title": "Create a Brand",
+            "type": "http_operation",
+            "slug": "45dd27f2314f6-create-a-brand",
+            "meta": "post"
+          },
+          {
+            "id": "d0378ceb04634",
+            "title": "Delete Brands",
+            "type": "http_operation",
+            "slug": "d0378ceb04634-delete-brands",
+            "meta": "delete"
+          },
+          {
+            "id": "392e318b52baf",
+            "title": "Get a Brand",
+            "type": "http_operation",
+            "slug": "392e318b52baf-get-a-brand",
+            "meta": "get"
+          },
+          {
+            "id": "1a9b36592d5c7",
+            "title": "Update a Brand",
+            "type": "http_operation",
+            "slug": "1a9b36592d5c7-update-a-brand",
+            "meta": "put"
+          },
+          {
+            "id": "be6e8c5356664",
+            "title": "Delete a Brand",
+            "type": "http_operation",
+            "slug": "be6e8c5356664-delete-a-brand",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Brand Images",
+        "items": [
+          {
+            "id": "ac7af107edb3e",
+            "title": "Create a Brand Image",
+            "type": "http_operation",
+            "slug": "ac7af107edb3e-create-a-brand-image",
+            "meta": "post"
+          },
+          {
+            "id": "ae708475a0dbd",
+            "title": "Delete a Brand Image",
+            "type": "http_operation",
+            "slug": "ae708475a0dbd-delete-a-brand-image",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Brand Metafields",
+        "items": [
+          {
+            "id": "46f4d19da7931",
+            "title": "Get All Brand Metafields",
+            "type": "http_operation",
+            "slug": "46f4d19da7931-get-all-brand-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "a49dc13aa62c3",
+            "title": "Create a Brand Metafield",
+            "type": "http_operation",
+            "slug": "a49dc13aa62c3-create-a-brand-metafield",
+            "meta": "post"
+          },
+          {
+            "id": "e9b48209bff63",
+            "title": "Get a Brand Metafields",
+            "type": "http_operation",
+            "slug": "e9b48209bff63-get-a-brand-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "07714165df399",
+            "title": "Update a Brand Metafield",
+            "type": "http_operation",
+            "slug": "07714165df399-update-a-brand-metafield",
+            "meta": "put"
+          },
+          {
+            "id": "77140f01db63f",
+            "title": "Delete a Brand Metafield",
+            "type": "http_operation",
+            "slug": "77140f01db63f-delete-a-brand-metafield",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Category",
+        "items": [
+          {
+            "id": "9cc3a53863922",
+            "title": "Get All Categories",
+            "type": "http_operation",
+            "slug": "9cc3a53863922-get-all-categories",
+            "meta": "get"
+          },
+          {
+            "id": "bfe0613898824",
+            "title": "Create a Category",
+            "type": "http_operation",
+            "slug": "bfe0613898824-create-a-category",
+            "meta": "post"
+          },
+          {
+            "id": "d4e96c2f5d289",
+            "title": "Delete Categories",
+            "type": "http_operation",
+            "slug": "d4e96c2f5d289-delete-categories",
+            "meta": "delete"
+          },
+          {
+            "id": "771af870e4660",
+            "title": "Get a Category",
+            "type": "http_operation",
+            "slug": "771af870e4660-get-a-category",
+            "meta": "get"
+          },
+          {
+            "id": "d03f081f3595e",
+            "title": "Update a Category",
+            "type": "http_operation",
+            "slug": "d03f081f3595e-update-a-category",
+            "meta": "put"
+          },
+          {
+            "id": "5976985c687dc",
+            "title": "Delete a Category",
+            "type": "http_operation",
+            "slug": "5976985c687dc-delete-a-category",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Categories Batch",
+        "items": [
+          {
+            "id": "ed646abfd1222",
+            "title": "Get All Categories",
+            "type": "http_operation",
+            "slug": "ed646abfd1222-get-all-categories",
+            "meta": "get"
+          },
+          {
+            "id": "8d90071f22a63",
+            "title": "Create Categories",
+            "type": "http_operation",
+            "slug": "8d90071f22a63-create-categories",
+            "meta": "post"
+          },
+          {
+            "id": "40e46b4dc7814",
+            "title": "Update Categories",
+            "type": "http_operation",
+            "slug": "40e46b4dc7814-update-categories",
+            "meta": "put"
+          },
+          {
+            "id": "1f00810b5cc20",
+            "title": "Delete Categories",
+            "type": "http_operation",
+            "slug": "1f00810b5cc20-delete-categories",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Category Metafields",
+        "items": [
+          {
+            "id": "a9396e154d15e",
+            "title": "Get All Category Metafields",
+            "type": "http_operation",
+            "slug": "a9396e154d15e-get-all-category-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "17a21173d3763",
+            "title": "Create a Category Metafield",
+            "type": "http_operation",
+            "slug": "17a21173d3763-create-a-category-metafield",
+            "meta": "post"
+          },
+          {
+            "id": "40b2c59b60c6c",
+            "title": "Get a Category Metafield",
+            "type": "http_operation",
+            "slug": "40b2c59b60c6c-get-a-category-metafield",
+            "meta": "get"
+          },
+          {
+            "id": "0c026cb2de960",
+            "title": "Update a Category Metafield",
+            "type": "http_operation",
+            "slug": "0c026cb2de960-update-a-category-metafield",
+            "meta": "put"
+          },
+          {
+            "id": "38b1c0be5da27",
+            "title": "Delete a Category Metafield",
+            "type": "http_operation",
+            "slug": "38b1c0be5da27-delete-a-category-metafield",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Category Images",
+        "items": [
+          {
+            "id": "ac03755330727",
+            "title": "Create a Category Image",
+            "type": "http_operation",
+            "slug": "ac03755330727-create-a-category-image",
+            "meta": "post"
+          },
+          {
+            "id": "cf9c61949a60f",
+            "title": "Delete a Category Image",
+            "type": "http_operation",
+            "slug": "cf9c61949a60f-delete-a-category-image",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Sort Order",
+        "items": [
+          {
+            "id": "90ab7265480e2",
+            "title": "Get Product Sort Order",
+            "type": "http_operation",
+            "slug": "90ab7265480e2-get-product-sort-order",
+            "meta": "get"
+          },
+          {
+            "id": "775118dd1abd7",
+            "title": "Update Product Sort Order",
+            "type": "http_operation",
+            "slug": "775118dd1abd7-update-product-sort-order",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Products",
+        "items": [
+          {
+            "id": "4101d472a814d",
+            "title": "Get All Products",
+            "type": "http_operation",
+            "slug": "4101d472a814d-get-all-products",
+            "meta": "get"
+          },
+          {
+            "id": "f42984fc9a82c",
+            "title": "Update Products (Batch)",
+            "type": "http_operation",
+            "slug": "f42984fc9a82c-update-products-batch",
+            "meta": "put"
+          },
+          {
+            "id": "366928572e59e",
+            "title": "Create a Product",
+            "type": "http_operation",
+            "slug": "366928572e59e-create-a-product",
+            "meta": "post"
+          },
+          {
+            "id": "e0c113aa38ab3",
+            "title": "Delete Products",
+            "type": "http_operation",
+            "slug": "e0c113aa38ab3-delete-products",
+            "meta": "delete"
+          },
+          {
+            "id": "6fe995bba597e",
+            "title": "Get a Product",
+            "type": "http_operation",
+            "slug": "6fe995bba597e-get-a-product",
+            "meta": "get"
+          },
+          {
+            "id": "6f05c1244d972",
+            "title": "Update a Product",
+            "type": "http_operation",
+            "slug": "6f05c1244d972-update-a-product",
+            "meta": "put"
+          },
+          {
+            "id": "76f5ebcdab695",
+            "title": "Delete a Product",
+            "type": "http_operation",
+            "slug": "76f5ebcdab695-delete-a-product",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Bulk Pricing Rules",
+        "items": [
+          {
+            "id": "845ec6385211b",
+            "title": "Get All Bulk Pricing Rules",
+            "type": "http_operation",
+            "slug": "845ec6385211b-get-all-bulk-pricing-rules",
+            "meta": "get"
+          },
+          {
+            "id": "f87895f39e8c0",
+            "title": "Create a Bulk Pricing Rule",
+            "type": "http_operation",
+            "slug": "f87895f39e8c0-create-a-bulk-pricing-rule",
+            "meta": "post"
+          },
+          {
+            "id": "a994ed8385a86",
+            "title": "Get a Bulk Pricing Rule",
+            "type": "http_operation",
+            "slug": "a994ed8385a86-get-a-bulk-pricing-rule",
+            "meta": "get"
+          },
+          {
+            "id": "ffcd45521abb4",
+            "title": "Update a Bulk Pricing Rule",
+            "type": "http_operation",
+            "slug": "ffcd45521abb4-update-a-bulk-pricing-rule",
+            "meta": "put"
+          },
+          {
+            "id": "cdbfd7a888184",
+            "title": "Delete a Bulk Pricing Rule",
+            "type": "http_operation",
+            "slug": "cdbfd7a888184-delete-a-bulk-pricing-rule",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Complex Rules",
+        "items": [
+          {
+            "id": "51d3d92129c20",
+            "title": "Get Complex Rules",
+            "type": "http_operation",
+            "slug": "51d3d92129c20-get-complex-rules",
+            "meta": "get"
+          },
+          {
+            "id": "57bab5b5b8bf0",
+            "title": "Create a Complex Rule",
+            "type": "http_operation",
+            "slug": "57bab5b5b8bf0-create-a-complex-rule",
+            "meta": "post"
+          },
+          {
+            "id": "0131a28675f59",
+            "title": "Get a Complex Rule",
+            "type": "http_operation",
+            "slug": "0131a28675f59-get-a-complex-rule",
+            "meta": "get"
+          },
+          {
+            "id": "a6303c34898ce",
+            "title": "Update a Complex Rule",
+            "type": "http_operation",
+            "slug": "a6303c34898ce-update-a-complex-rule",
+            "meta": "put"
+          },
+          {
+            "id": "0c5e4cb68bda0",
+            "title": "Delete a Complex Rule",
+            "type": "http_operation",
+            "slug": "0c5e4cb68bda0-delete-a-complex-rule",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Custom Fields",
+        "items": [
+          {
+            "id": "2b7e8479cc61e",
+            "title": "Get Custom Fields",
+            "type": "http_operation",
+            "slug": "2b7e8479cc61e-get-custom-fields",
+            "meta": "get"
+          },
+          {
+            "id": "8df5106c531c1",
+            "title": "Create a Custom Fields",
+            "type": "http_operation",
+            "slug": "8df5106c531c1-create-a-custom-fields",
+            "meta": "post"
+          },
+          {
+            "id": "5eca6f9290c4f",
+            "title": "Get a Custom Field",
+            "type": "http_operation",
+            "slug": "5eca6f9290c4f-get-a-custom-field",
+            "meta": "get"
+          },
+          {
+            "id": "98860c6698ce4",
+            "title": "Update a Custom Field",
+            "type": "http_operation",
+            "slug": "98860c6698ce4-update-a-custom-field",
+            "meta": "put"
+          },
+          {
+            "id": "53dabbc4e2a63",
+            "title": "Delete a Custom Field",
+            "type": "http_operation",
+            "slug": "53dabbc4e2a63-delete-a-custom-field",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Images",
+        "items": [
+          {
+            "id": "73a8d6a4fa0dc",
+            "title": "Get All Product Images",
+            "type": "http_operation",
+            "slug": "73a8d6a4fa0dc-get-all-product-images",
+            "meta": "get"
+          },
+          {
+            "id": "1cc81fb801499",
+            "title": "Create a Product Image",
+            "type": "http_operation",
+            "slug": "1cc81fb801499-create-a-product-image",
+            "meta": "post"
+          },
+          {
+            "id": "a1562ed4d26f6",
+            "title": "Get a Product Image",
+            "type": "http_operation",
+            "slug": "a1562ed4d26f6-get-a-product-image",
+            "meta": "get"
+          },
+          {
+            "id": "ccb47bf5bab75",
+            "title": "Update a Product Image",
+            "type": "http_operation",
+            "slug": "ccb47bf5bab75-update-a-product-image",
+            "meta": "put"
+          },
+          {
+            "id": "9fa526bf4caa7",
+            "title": "Delete a Product Image",
+            "type": "http_operation",
+            "slug": "9fa526bf4caa7-delete-a-product-image",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Metafields",
+        "items": [
+          {
+            "id": "bb4459a9412f6",
+            "title": "Get All Product Metafields",
+            "type": "http_operation",
+            "slug": "bb4459a9412f6-get-all-product-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "1767263fe3672",
+            "title": "Create a Product Metafield",
+            "type": "http_operation",
+            "slug": "1767263fe3672-create-a-product-metafield",
+            "meta": "post"
+          },
+          {
+            "id": "09cbc00bf6508",
+            "title": "Get a Product Metafield",
+            "type": "http_operation",
+            "slug": "09cbc00bf6508-get-a-product-metafield",
+            "meta": "get"
+          },
+          {
+            "id": "4e390b8b5ce8c",
+            "title": "Update a Product Metafield",
+            "type": "http_operation",
+            "slug": "4e390b8b5ce8c-update-a-product-metafield",
+            "meta": "put"
+          },
+          {
+            "id": "ce0757e490267",
+            "title": "Delete a Product Metafield",
+            "type": "http_operation",
+            "slug": "ce0757e490267-delete-a-product-metafield",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Modifiers",
+        "items": [
+          {
+            "id": "c799ca0742d1b",
+            "title": "Get All Product Modifiers",
+            "type": "http_operation",
+            "slug": "c799ca0742d1b-get-all-product-modifiers",
+            "meta": "get"
+          },
+          {
+            "id": "b53222c895907",
+            "title": "Create a Product Modifier",
+            "type": "http_operation",
+            "slug": "b53222c895907-create-a-product-modifier",
+            "meta": "post"
+          },
+          {
+            "id": "cf74f96ae2760",
+            "title": "Get a Modifier",
+            "type": "http_operation",
+            "slug": "cf74f96ae2760-get-a-modifier",
+            "meta": "get"
+          },
+          {
+            "id": "6e9470c594842",
+            "title": "Update a Modifier",
+            "type": "http_operation",
+            "slug": "6e9470c594842-update-a-modifier",
+            "meta": "put"
+          },
+          {
+            "id": "4f3ccae61ce76",
+            "title": "Delete a Modifier",
+            "type": "http_operation",
+            "slug": "4f3ccae61ce76-delete-a-modifier",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Modifier Values",
+        "items": [
+          {
+            "id": "77f8c5a2d544d",
+            "title": "Get All Modifier Values",
+            "type": "http_operation",
+            "slug": "77f8c5a2d544d-get-all-modifier-values",
+            "meta": "get"
+          },
+          {
+            "id": "86a8eb0b7a5a9",
+            "title": "Create Modifier Value",
+            "type": "http_operation",
+            "slug": "86a8eb0b7a5a9-create-modifier-value",
+            "meta": "post"
+          },
+          {
+            "id": "b0791657041b7",
+            "title": "Get a Modifier Value",
+            "type": "http_operation",
+            "slug": "b0791657041b7-get-a-modifier-value",
+            "meta": "get"
+          },
+          {
+            "id": "2e4b88c3dcc96",
+            "title": "Update a Modifier Value",
+            "type": "http_operation",
+            "slug": "2e4b88c3dcc96-update-a-modifier-value",
+            "meta": "put"
+          },
+          {
+            "id": "8525024da9852",
+            "title": "Delete Modifier Value",
+            "type": "http_operation",
+            "slug": "8525024da9852-delete-modifier-value",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Modifier Images",
+        "items": [
+          {
+            "id": "27a93862a2a29",
+            "title": "Create Modifier Image",
+            "type": "http_operation",
+            "slug": "27a93862a2a29-create-modifier-image",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Product Reviews",
+        "items": [
+          {
+            "id": "a77ee99acb04b",
+            "title": "Get Product Reviews",
+            "type": "http_operation",
+            "slug": "a77ee99acb04b-get-product-reviews",
+            "meta": "get"
+          },
+          {
+            "id": "538fdc2d1f28b",
+            "title": "Create a Product Review",
+            "type": "http_operation",
+            "slug": "538fdc2d1f28b-create-a-product-review",
+            "meta": "post"
+          },
+          {
+            "id": "f307c8a21572f",
+            "title": "Get a Product Review",
+            "type": "http_operation",
+            "slug": "f307c8a21572f-get-a-product-review",
+            "meta": "get"
+          },
+          {
+            "id": "0a292ec5f032c",
+            "title": "Update a Product Review",
+            "type": "http_operation",
+            "slug": "0a292ec5f032c-update-a-product-review",
+            "meta": "put"
+          },
+          {
+            "id": "99378614c90a4",
+            "title": "Delete a Product Review",
+            "type": "http_operation",
+            "slug": "99378614c90a4-delete-a-product-review",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Variants",
+        "items": [
+          {
+            "id": "02db3ddfc6be7",
+            "title": "Get All Product Variants",
+            "type": "http_operation",
+            "slug": "02db3ddfc6be7-get-all-product-variants",
+            "meta": "get"
+          },
+          {
+            "id": "232c8ce083b24",
+            "title": "Create a Product Variant",
+            "type": "http_operation",
+            "slug": "232c8ce083b24-create-a-product-variant",
+            "meta": "post"
+          },
+          {
+            "id": "9c6c37e9cced8",
+            "title": "Get a Product Variant",
+            "type": "http_operation",
+            "slug": "9c6c37e9cced8-get-a-product-variant",
+            "meta": "get"
+          },
+          {
+            "id": "fe380a0ee0df7",
+            "title": "Update a Product Variant",
+            "type": "http_operation",
+            "slug": "fe380a0ee0df7-update-a-product-variant",
+            "meta": "put"
+          },
+          {
+            "id": "980262a3c84fa",
+            "title": "Delete a Product Variant",
+            "type": "http_operation",
+            "slug": "980262a3c84fa-delete-a-product-variant",
+            "meta": "delete"
+          },
+          {
+            "id": "45bef4d261b13",
+            "title": "Create a Variant Image",
+            "type": "http_operation",
+            "slug": "45bef4d261b13-create-a-variant-image",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Product Variants Metafields",
+        "items": [
+          {
+            "id": "87188036765bf",
+            "title": "Get All Product Variant Metafields",
+            "type": "http_operation",
+            "slug": "87188036765bf-get-all-product-variant-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "3622b33d411c7",
+            "title": "Create a Product Variant Metafield",
+            "type": "http_operation",
+            "slug": "3622b33d411c7-create-a-product-variant-metafield",
+            "meta": "post"
+          },
+          {
+            "id": "51c0dd922e1aa",
+            "title": "Get a Product Variant Metafields",
+            "type": "http_operation",
+            "slug": "51c0dd922e1aa-get-a-product-variant-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "42487ce8825b2",
+            "title": "Update Product Variant Metafields",
+            "type": "http_operation",
+            "slug": "42487ce8825b2-update-product-variant-metafields",
+            "meta": "put"
+          },
+          {
+            "id": "d73fc1fe13197",
+            "title": "Delete a Variant Metafield",
+            "type": "http_operation",
+            "slug": "d73fc1fe13197-delete-a-variant-metafield",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Variant Options",
+        "items": [
+          {
+            "id": "ec109df32909b",
+            "title": "Get All Product Variant Options",
+            "type": "http_operation",
+            "slug": "ec109df32909b-get-all-product-variant-options",
+            "meta": "get"
+          },
+          {
+            "id": "e9b1d990a9fcb",
+            "title": "Create a Product Variant Option",
+            "type": "http_operation",
+            "slug": "e9b1d990a9fcb-create-a-product-variant-option",
+            "meta": "post"
+          },
+          {
+            "id": "f85142d05f305",
+            "title": "Get a Product Variant Option",
+            "type": "http_operation",
+            "slug": "f85142d05f305-get-a-product-variant-option",
+            "meta": "get"
+          },
+          {
+            "id": "ae07dc0a38068",
+            "title": "Update a Product Variant Option",
+            "type": "http_operation",
+            "slug": "ae07dc0a38068-update-a-product-variant-option",
+            "meta": "put"
+          },
+          {
+            "id": "58bcfae3aca1c",
+            "title": "Delete a Product Variant Option",
+            "type": "http_operation",
+            "slug": "58bcfae3aca1c-delete-a-product-variant-option",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Variant Option Values",
+        "items": [
+          {
+            "id": "0d7375b1b2748",
+            "title": "Get All Product Variant Option Values",
+            "type": "http_operation",
+            "slug": "0d7375b1b2748-get-all-product-variant-option-values",
+            "meta": "get"
+          },
+          {
+            "id": "8ea9cdb11b76e",
+            "title": "Create a Product Variant Option Value",
+            "type": "http_operation",
+            "slug": "8ea9cdb11b76e-create-a-product-variant-option-value",
+            "meta": "post"
+          },
+          {
+            "id": "443808b89e5c6",
+            "title": "Get a Product Variant Option Value",
+            "type": "http_operation",
+            "slug": "443808b89e5c6-get-a-product-variant-option-value",
+            "meta": "get"
+          },
+          {
+            "id": "1ed09ff700ec0",
+            "title": "Update a Product Variant Option Value",
+            "type": "http_operation",
+            "slug": "1ed09ff700ec0-update-a-product-variant-option-value",
+            "meta": "put"
+          },
+          {
+            "id": "566eef0e100f5",
+            "title": "Delete a Product Variant Option Value",
+            "type": "http_operation",
+            "slug": "566eef0e100f5-delete-a-product-variant-option-value",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Product Videos",
+        "items": [
+          {
+            "id": "9400434de5709",
+            "title": "Get All Product Videos",
+            "type": "http_operation",
+            "slug": "9400434de5709-get-all-product-videos",
+            "meta": "get"
+          },
+          {
+            "id": "ec966366f274d",
+            "title": "Create a Product Video",
+            "type": "http_operation",
+            "slug": "ec966366f274d-create-a-product-video",
+            "meta": "post"
+          },
+          {
+            "id": "9a44d1aef1724",
+            "title": "Get a Product Video",
+            "type": "http_operation",
+            "slug": "9a44d1aef1724-get-a-product-video",
+            "meta": "get"
+          },
+          {
+            "id": "cc86a4eb82f60",
+            "title": "Update a Product Video",
+            "type": "http_operation",
+            "slug": "cc86a4eb82f60-update-a-product-video",
+            "meta": "put"
+          },
+          {
+            "id": "4d6029e15ea49",
+            "title": "Delete a Product Video",
+            "type": "http_operation",
+            "slug": "4d6029e15ea49-delete-a-product-video",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Products Channel Assignments",
+        "items": [
+          {
+            "id": "2d8531469d159",
+            "title": "Get Products Channel Assignments",
+            "type": "http_operation",
+            "slug": "2d8531469d159-get-products-channel-assignments",
+            "meta": "get"
+          },
+          {
+            "id": "6777515ba8f0e",
+            "title": "Create Products Channel Assignments",
+            "type": "http_operation",
+            "slug": "6777515ba8f0e-create-products-channel-assignments",
+            "meta": "put"
+          },
+          {
+            "id": "03c7dcacaa729",
+            "title": "Delete Products Channel Assignments",
+            "type": "http_operation",
+            "slug": "03c7dcacaa729-delete-products-channel-assignments",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Products Category Assignments",
+        "items": [
+          {
+            "id": "7672519cbd217",
+            "title": "Get Products Category Assignments",
+            "type": "http_operation",
+            "slug": "7672519cbd217-get-products-category-assignments",
+            "meta": "get"
+          },
+          {
+            "id": "c52aad1ceafc8",
+            "title": "Create Products Category Assignments.",
+            "type": "http_operation",
+            "slug": "c52aad1ceafc8-create-products-category-assignments",
+            "meta": "put"
+          },
+          {
+            "id": "51ffabf15a0d8",
+            "title": "Delete Products Category Assignments",
+            "type": "http_operation",
+            "slug": "51ffabf15a0d8-delete-products-category-assignments",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Summary",
+        "items": [
+          {
+            "id": "375e9eb4ff317",
+            "title": "Get a Catalog Summary",
+            "type": "http_operation",
+            "slug": "375e9eb4ff317-get-a-catalog-summary",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Variants",
+        "items": [
+          {
+            "id": "5fb0d6a8da6a0",
+            "title": "Get All Variants",
+            "type": "http_operation",
+            "slug": "5fb0d6a8da6a0-get-all-variants",
+            "meta": "get"
+          },
+          {
+            "id": "160429d056832",
+            "title": "Update Variants (Batch)",
+            "type": "http_operation",
+            "slug": "160429d056832-update-variants-batch",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Category Trees",
+        "items": [
+          {
+            "id": "448cda022db6a",
+            "title": "Get All Category Trees",
+            "type": "http_operation",
+            "slug": "448cda022db6a-get-all-category-trees",
+            "meta": "get"
+          },
+          {
+            "id": "61cca514cb83e",
+            "title": "Upsert Category Trees",
+            "type": "http_operation",
+            "slug": "61cca514cb83e-upsert-category-trees",
+            "meta": "put"
+          },
+          {
+            "id": "da6d935e5d515",
+            "title": "Delete Category Trees",
+            "type": "http_operation",
+            "slug": "da6d935e5d515-delete-category-trees",
+            "meta": "delete"
+          },
+          {
+            "id": "14abea8f905c3",
+            "title": "Get a Category Tree",
+            "type": "http_operation",
+            "slug": "14abea8f905c3-get-a-category-tree",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38ae38c2aa5a7",
+    "title": "Channels",
+    "type": "http_service",
+    "slug": "38ae38c2aa5a7-channels",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Channels",
+        "items": [
+          {
+            "id": "d2298071793d6",
+            "title": "Get All Channels",
+            "type": "http_operation",
+            "slug": "d2298071793d6-get-all-channels",
+            "meta": "get"
+          },
+          {
+            "id": "d649415abcb78",
+            "title": "Create a Channel",
+            "type": "http_operation",
+            "slug": "d649415abcb78-create-a-channel",
+            "meta": "post"
+          },
+          {
+            "id": "efa3639276cde",
+            "title": "Get a Channel",
+            "type": "http_operation",
+            "slug": "efa3639276cde-get-a-channel",
+            "meta": "get"
+          },
+          {
+            "id": "6fc67ceec7f2d",
+            "title": "Update a Channel",
+            "type": "http_operation",
+            "slug": "6fc67ceec7f2d-update-a-channel",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Channel Active Theme",
+        "items": [
+          {
+            "id": "f5d21e8cb9c02",
+            "title": "Get a Channel Active Theme",
+            "type": "http_operation",
+            "slug": "f5d21e8cb9c02-get-a-channel-active-theme",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Channel Currency Assignments",
+        "items": [
+          {
+            "id": "7e381bacc345a",
+            "title": "Get All Channels Currency Assignments",
+            "type": "http_operation",
+            "slug": "7e381bacc345a-get-all-channels-currency-assignments",
+            "meta": "get"
+          },
+          {
+            "id": "e53897981f62d",
+            "title": "Create Multiple Channels Currency Assignments",
+            "type": "http_operation",
+            "slug": "e53897981f62d-create-multiple-channels-currency-assignments",
+            "meta": "post"
+          },
+          {
+            "id": "49f24abad1a0f",
+            "title": "Update Multiple Channels Currency Assignments",
+            "type": "http_operation",
+            "slug": "49f24abad1a0f-update-multiple-channels-currency-assignments",
+            "meta": "put"
+          },
+          {
+            "id": "19abb506f842d",
+            "title": "Get Channel Currency Assignments",
+            "type": "http_operation",
+            "slug": "19abb506f842d-get-channel-currency-assignments",
+            "meta": "get"
+          },
+          {
+            "id": "d5c977ee68445",
+            "title": "Create Channel Currency Assignments",
+            "type": "http_operation",
+            "slug": "d5c977ee68445-create-channel-currency-assignments",
+            "meta": "post"
+          },
+          {
+            "id": "5116f09b36aa8",
+            "title": "Update Channel Currency Assignments",
+            "type": "http_operation",
+            "slug": "5116f09b36aa8-update-channel-currency-assignments",
+            "meta": "put"
+          },
+          {
+            "id": "c2fdc58e68df5",
+            "title": "Delete Channel Currency Assignments",
+            "type": "http_operation",
+            "slug": "c2fdc58e68df5-delete-channel-currency-assignments",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Channel Listings",
+        "items": [
+          {
+            "id": "231c056e4062f",
+            "title": "Get Channel Listings",
+            "type": "http_operation",
+            "slug": "231c056e4062f-get-channel-listings",
+            "meta": "get"
+          },
+          {
+            "id": "fb5456eb82864",
+            "title": "Create Channel Listings",
+            "type": "http_operation",
+            "slug": "fb5456eb82864-create-channel-listings",
+            "meta": "post"
+          },
+          {
+            "id": "e462d69a0ecdb",
+            "title": "Update Channel Listings",
+            "type": "http_operation",
+            "slug": "e462d69a0ecdb-update-channel-listings",
+            "meta": "put"
+          },
+          {
+            "id": "fc375dc0304f4",
+            "title": "Get a Channel Listing",
+            "type": "http_operation",
+            "slug": "fc375dc0304f4-get-a-channel-listing",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Channel Site",
+        "items": [
+          {
+            "id": "e343543476a1a",
+            "title": "Get a Channel Site",
+            "type": "http_operation",
+            "slug": "e343543476a1a-get-a-channel-site",
+            "meta": "get"
+          },
+          {
+            "id": "6cf0a4a0dc3c8",
+            "title": "Update a Channel Site",
+            "type": "http_operation",
+            "slug": "6cf0a4a0dc3c8-update-a-channel-site",
+            "meta": "put"
+          },
+          {
+            "id": "69072d0e18e9f",
+            "title": "Create a Channel Site",
+            "type": "http_operation",
+            "slug": "69072d0e18e9f-create-a-channel-site",
+            "meta": "post"
+          },
+          {
+            "id": "3ed9a02bffc2f",
+            "title": "Delete a Channel Site",
+            "type": "http_operation",
+            "slug": "3ed9a02bffc2f-delete-a-channel-site",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Channel Site Checkout Url",
+        "items": [
+          {
+            "id": "51eb669054446",
+            "title": "Upsert a Site's Checkout URL",
+            "type": "http_operation",
+            "slug": "51eb669054446-upsert-a-site-s-checkout-url",
+            "meta": "put"
+          },
+          {
+            "id": "8991e6be350ac",
+            "title": "Delete a Site's Checkout URL",
+            "type": "http_operation",
+            "slug": "8991e6be350ac-delete-a-site-s-checkout-url",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Channel Menus",
+        "items": [
+          {
+            "id": "15bc9beed16c0",
+            "title": "Get Channel Menus",
+            "type": "http_operation",
+            "slug": "15bc9beed16c0-get-channel-menus",
+            "meta": "get"
+          },
+          {
+            "id": "a018c51ab1757",
+            "title": "Create Channel Menus",
+            "type": "http_operation",
+            "slug": "a018c51ab1757-create-channel-menus",
+            "meta": "post"
+          },
+          {
+            "id": "3fa3a5f9500b7",
+            "title": "Delete Channel Menus",
+            "type": "http_operation",
+            "slug": "3fa3a5f9500b7-delete-channel-menus",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Channel Metafields",
+        "items": [
+          {
+            "id": "e3c521fcecaea",
+            "title": "Get Channel Metafields",
+            "type": "http_operation",
+            "slug": "e3c521fcecaea-get-channel-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "34f3699d1be02",
+            "title": "Create a Channel Metafield",
+            "type": "http_operation",
+            "slug": "34f3699d1be02-create-a-channel-metafield",
+            "meta": "post"
+          },
+          {
+            "id": "2e5fc766727cd",
+            "title": "Get a Channel Metafield",
+            "type": "http_operation",
+            "slug": "2e5fc766727cd-get-a-channel-metafield",
+            "meta": "get"
+          },
+          {
+            "id": "e144f98287b5a",
+            "title": "Update a Channel Metafield",
+            "type": "http_operation",
+            "slug": "e144f98287b5a-update-a-channel-metafield",
+            "meta": "put"
+          },
+          {
+            "id": "f431903e79484",
+            "title": "Delete a Channel Metafield",
+            "type": "http_operation",
+            "slug": "f431903e79484-delete-a-channel-metafield",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d8c2da0790a85",
+    "title": "Checkouts",
+    "type": "http_service",
+    "slug": "d8c2da0790a85-checkouts",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Checkout",
+        "items": [
+          {
+            "id": "07d6082e99052",
+            "title": "Get a Checkout",
+            "type": "http_operation",
+            "slug": "07d6082e99052-get-a-checkout",
+            "meta": "get"
+          },
+          {
+            "id": "1e9fc5ef07516",
+            "title": "Update Customer Messages",
+            "type": "http_operation",
+            "slug": "1e9fc5ef07516-update-customer-messages",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Billing Address",
+        "items": [
+          {
+            "id": "aa53a7eb5fcb2",
+            "title": "Add Checkout Billing Address",
+            "type": "http_operation",
+            "slug": "aa53a7eb5fcb2-add-checkout-billing-address",
+            "meta": "post"
+          },
+          {
+            "id": "dfeeb9ad7dacb",
+            "title": "Update Checkout Billing Address",
+            "type": "http_operation",
+            "slug": "dfeeb9ad7dacb-update-checkout-billing-address",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Consignments",
+        "items": [
+          {
+            "id": "dfbf31248722d",
+            "title": "Add Consignment to Checkout",
+            "type": "http_operation",
+            "slug": "dfbf31248722d-add-consignment-to-checkout",
+            "meta": "post"
+          },
+          {
+            "id": "fea1832a96623",
+            "title": "Update Checkout Consignment",
+            "type": "http_operation",
+            "slug": "fea1832a96623-update-checkout-consignment",
+            "meta": "put"
+          },
+          {
+            "id": "e1e61ca729cda",
+            "title": "Delete Checkout Consignment",
+            "type": "http_operation",
+            "slug": "e1e61ca729cda-delete-checkout-consignment",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Coupons",
+        "items": [
+          {
+            "id": "76cc69ec7fc11",
+            "title": "Add Coupon to Checkout",
+            "type": "http_operation",
+            "slug": "76cc69ec7fc11-add-coupon-to-checkout",
+            "meta": "post"
+          },
+          {
+            "id": "0d1212f54ec51",
+            "title": "Delete Checkout Coupon",
+            "type": "http_operation",
+            "slug": "0d1212f54ec51-delete-checkout-coupon",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Discounts",
+        "items": [
+          {
+            "id": "fc4b57ea02503",
+            "title": "Add Discount to Checkout",
+            "type": "http_operation",
+            "slug": "fc4b57ea02503-add-discount-to-checkout",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Orders",
+        "items": [
+          {
+            "id": "b891108d80d77",
+            "title": "Create an Order",
+            "type": "http_operation",
+            "slug": "b891108d80d77-create-an-order",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Checkout Settings",
+        "items": [
+          {
+            "id": "952121360bd96",
+            "title": "Get Checkout Settings",
+            "type": "http_operation",
+            "slug": "952121360bd96-get-checkout-settings",
+            "meta": "get"
+          },
+          {
+            "id": "b3af9a0dd919e",
+            "title": "Update Checkout Settings",
+            "type": "http_operation",
+            "slug": "b3af9a0dd919e-update-checkout-settings",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "608afbd8008a0",
+    "title": "Currencies",
+    "type": "http_service",
+    "slug": "608afbd8008a0-currencies",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Currencies",
+        "items": [
+          {
+            "id": "2dc5722e06f7d",
+            "title": "Get All Currencies",
+            "type": "http_operation",
+            "slug": "2dc5722e06f7d-get-all-currencies",
+            "meta": "get"
+          },
+          {
+            "id": "6a7a79d509e0f",
+            "title": "Delete All Currencies",
+            "type": "http_operation",
+            "slug": "6a7a79d509e0f-delete-all-currencies",
+            "meta": "delete"
+          },
+          {
+            "id": "2235c68fafab8",
+            "title": "Create a Currency",
+            "type": "http_operation",
+            "slug": "2235c68fafab8-create-a-currency",
+            "meta": "post"
+          },
+          {
+            "id": "b1bf0beee98f0",
+            "title": "Get a Currency",
+            "type": "http_operation",
+            "slug": "b1bf0beee98f0-get-a-currency",
+            "meta": "get"
+          },
+          {
+            "id": "c5115f9abdacc",
+            "title": "Update a Currency",
+            "type": "http_operation",
+            "slug": "c5115f9abdacc-update-a-currency",
+            "meta": "put"
+          },
+          {
+            "id": "54720ee8431d4",
+            "title": "Delete a Currency",
+            "type": "http_operation",
+            "slug": "54720ee8431d4-delete-a-currency",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4f1da2936ed10",
+    "title": "Customers v2",
+    "type": "http_service",
+    "slug": "4f1da2936ed10-customers-v2",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Customers",
+        "items": [
+          {
+            "id": "0f829efed2c95",
+            "title": "Get All Customers",
+            "type": "http_operation",
+            "slug": "0f829efed2c95-get-all-customers",
+            "meta": "get"
+          },
+          {
+            "id": "89924185cde12",
+            "title": "Create a New Customer",
+            "type": "http_operation",
+            "slug": "89924185cde12-create-a-new-customer",
+            "meta": "post"
+          },
+          {
+            "id": "305a9d0485601",
+            "title": "Delete Customers",
+            "type": "http_operation",
+            "slug": "305a9d0485601-delete-customers",
+            "meta": "delete"
+          },
+          {
+            "id": "778b55406d87b",
+            "title": "Get a Customer",
+            "type": "http_operation",
+            "slug": "778b55406d87b-get-a-customer",
+            "meta": "get"
+          },
+          {
+            "id": "88daeea360367",
+            "title": "Delete a Customer",
+            "type": "http_operation",
+            "slug": "88daeea360367-delete-a-customer",
+            "meta": "delete"
+          },
+          {
+            "id": "108a5ba9c9794",
+            "title": "Update a Customer",
+            "type": "http_operation",
+            "slug": "108a5ba9c9794-update-a-customer",
+            "meta": "put"
+          },
+          {
+            "id": "489f1f205de5b",
+            "title": "Get a Count of Customers",
+            "type": "http_operation",
+            "slug": "489f1f205de5b-get-a-count-of-customers",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Customer Groups",
+        "items": [
+          {
+            "id": "9bd6421f356c4",
+            "title": "Get All Customer Groups",
+            "type": "http_operation",
+            "slug": "9bd6421f356c4-get-all-customer-groups",
+            "meta": "get"
+          },
+          {
+            "id": "22310b403fa42",
+            "title": "Create a Customer Group",
+            "type": "http_operation",
+            "slug": "22310b403fa42-create-a-customer-group",
+            "meta": "post"
+          },
+          {
+            "id": "6d98d7193573a",
+            "title": "Delete Customer Groups",
+            "type": "http_operation",
+            "slug": "6d98d7193573a-delete-customer-groups",
+            "meta": "delete"
+          },
+          {
+            "id": "74c999c81b17a",
+            "title": "Get a Customer Group",
+            "type": "http_operation",
+            "slug": "74c999c81b17a-get-a-customer-group",
+            "meta": "get"
+          },
+          {
+            "id": "88390e37549a3",
+            "title": "Delete a Customer Group",
+            "type": "http_operation",
+            "slug": "88390e37549a3-delete-a-customer-group",
+            "meta": "delete"
+          },
+          {
+            "id": "9b12b3e9edbd8",
+            "title": "Update a Customer Group",
+            "type": "http_operation",
+            "slug": "9b12b3e9edbd8-update-a-customer-group",
+            "meta": "put"
+          },
+          {
+            "id": "f335749b4338e",
+            "title": "Get a Count of Customer Groups",
+            "type": "http_operation",
+            "slug": "f335749b4338e-get-a-count-of-customer-groups",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Customer Addresses",
+        "items": [
+          {
+            "id": "856a29b396f68",
+            "title": "Get All Customer Addresses",
+            "type": "http_operation",
+            "slug": "856a29b396f68-get-all-customer-addresses",
+            "meta": "get"
+          },
+          {
+            "id": "9e1372628e3fb",
+            "title": "Create a Customer Address",
+            "type": "http_operation",
+            "slug": "9e1372628e3fb-create-a-customer-address",
+            "meta": "post"
+          },
+          {
+            "id": "1a91ae4838cf6",
+            "title": "Delete Customer Address",
+            "type": "http_operation",
+            "slug": "1a91ae4838cf6-delete-customer-address",
+            "meta": "delete"
+          },
+          {
+            "id": "7281ea9e7c820",
+            "title": "Get a Customer Address",
+            "type": "http_operation",
+            "slug": "7281ea9e7c820-get-a-customer-address",
+            "meta": "get"
+          },
+          {
+            "id": "1736e53cb544c",
+            "title": "Update a Customer Address",
+            "type": "http_operation",
+            "slug": "1736e53cb544c-update-a-customer-address",
+            "meta": "put"
+          },
+          {
+            "id": "2689ad39294db",
+            "title": "Delete a Customer Address",
+            "type": "http_operation",
+            "slug": "2689ad39294db-delete-a-customer-address",
+            "meta": "delete"
+          },
+          {
+            "id": "fbc37e9f70f07",
+            "title": "Get a Count of Customer Addresses",
+            "type": "http_operation",
+            "slug": "fbc37e9f70f07-get-a-count-of-customer-addresses",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Customer Passwords",
+        "items": [
+          {
+            "id": "4fc9e572f701d",
+            "title": "Validate a Password",
+            "type": "http_operation",
+            "slug": "4fc9e572f701d-validate-a-password",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c98cfd443b0a0",
+    "title": "Customers v3",
+    "type": "http_service",
+    "slug": "c98cfd443b0a0-customers-v3",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Customers",
+        "items": [
+          {
+            "id": "761ec193054b6",
+            "title": "Get All Customers",
+            "type": "http_operation",
+            "slug": "761ec193054b6-get-all-customers",
+            "meta": "get"
+          },
+          {
+            "id": "1cea64e1d698e",
+            "title": "Create Customers",
+            "type": "http_operation",
+            "slug": "1cea64e1d698e-create-customers",
+            "meta": "post"
+          },
+          {
+            "id": "595425896c3ec",
+            "title": "Update Customers",
+            "type": "http_operation",
+            "slug": "595425896c3ec-update-customers",
+            "meta": "put"
+          },
+          {
+            "id": "e6bb04315e2a7",
+            "title": "Delete Customers",
+            "type": "http_operation",
+            "slug": "e6bb04315e2a7-delete-customers",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Customer Addresses",
+        "items": [
+          {
+            "id": "615222bb68851",
+            "title": "Get All Customer Addresses",
+            "type": "http_operation",
+            "slug": "615222bb68851-get-all-customer-addresses",
+            "meta": "get"
+          },
+          {
+            "id": "a07ae13d3bc9f",
+            "title": "Create a Customer Address",
+            "type": "http_operation",
+            "slug": "a07ae13d3bc9f-create-a-customer-address",
+            "meta": "post"
+          },
+          {
+            "id": "ce1691ad00419",
+            "title": "Update a Customer Address",
+            "type": "http_operation",
+            "slug": "ce1691ad00419-update-a-customer-address",
+            "meta": "put"
+          },
+          {
+            "id": "1b9220af8d8da",
+            "title": "Delete a Customer Address",
+            "type": "http_operation",
+            "slug": "1b9220af8d8da-delete-a-customer-address",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Customer Attributes",
+        "items": [
+          {
+            "id": "5092ca66caaee",
+            "title": "Get All Customer Attributes",
+            "type": "http_operation",
+            "slug": "5092ca66caaee-get-all-customer-attributes",
+            "meta": "get"
+          },
+          {
+            "id": "0b427d58415e1",
+            "title": "Create a Customer Attribute",
+            "type": "http_operation",
+            "slug": "0b427d58415e1-create-a-customer-attribute",
+            "meta": "post"
+          },
+          {
+            "id": "4ad4f8b0ac9e3",
+            "title": "Update a Customer Attribute",
+            "type": "http_operation",
+            "slug": "4ad4f8b0ac9e3-update-a-customer-attribute",
+            "meta": "put"
+          },
+          {
+            "id": "7119c68a115e3",
+            "title": "Delete Customer Attributes",
+            "type": "http_operation",
+            "slug": "7119c68a115e3-delete-customer-attributes",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Customer Attribute Values",
+        "items": [
+          {
+            "id": "796d011763dd3",
+            "title": "Get All Customer Attribute Values",
+            "type": "http_operation",
+            "slug": "796d011763dd3-get-all-customer-attribute-values",
+            "meta": "get"
+          },
+          {
+            "id": "4b11b11759d5d",
+            "title": "Upsert Customer Attribute Values",
+            "type": "http_operation",
+            "slug": "4b11b11759d5d-upsert-customer-attribute-values",
+            "meta": "put"
+          },
+          {
+            "id": "d7306798b0a6f",
+            "title": "Delete Customer Attribute Values",
+            "type": "http_operation",
+            "slug": "d7306798b0a6f-delete-customer-attribute-values",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Customer Form Field Values",
+        "items": [
+          {
+            "id": "c3ba2036bd5c5",
+            "title": "Get Customer Form Field Values",
+            "type": "http_operation",
+            "slug": "c3ba2036bd5c5-get-customer-form-field-values",
+            "meta": "get"
+          },
+          {
+            "id": "e24cecca97d81",
+            "title": "Upsert Customer Form Field Values",
+            "type": "http_operation",
+            "slug": "e24cecca97d81-upsert-customer-form-field-values",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Customer Consent",
+        "items": [
+          {
+            "id": "22402f3a9aa53",
+            "title": "Get Customer Consent",
+            "type": "http_operation",
+            "slug": "22402f3a9aa53-get-customer-consent",
+            "meta": "get"
+          },
+          {
+            "id": "2e9a0d91fbd77",
+            "title": "Update Customer Consent",
+            "type": "http_operation",
+            "slug": "2e9a0d91fbd77-update-customer-consent",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Customer Stored Instruments",
+        "items": [
+          {
+            "id": "b735a25b3a0b8",
+            "title": "Get Stored Instruments (Beta)",
+            "type": "http_operation",
+            "slug": "b735a25b3a0b8-get-stored-instruments-beta",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Customer Settings",
+        "items": [
+          {
+            "id": "0c31a6d25e5ea",
+            "title": "Get Customer Settings",
+            "type": "http_operation",
+            "slug": "0c31a6d25e5ea-get-customer-settings",
+            "meta": "get"
+          },
+          {
+            "id": "73a537383ea58",
+            "title": "Update Customer Settings",
+            "type": "http_operation",
+            "slug": "73a537383ea58-update-customer-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Customer Settings Channel",
+        "items": [
+          {
+            "id": "d5e66c45b0415",
+            "title": "Get Customer Settings per Channel",
+            "type": "http_operation",
+            "slug": "d5e66c45b0415-get-customer-settings-per-channel",
+            "meta": "get"
+          },
+          {
+            "id": "87630f7af3e63",
+            "title": "Update Customer Settings per Channel",
+            "type": "http_operation",
+            "slug": "87630f7af3e63-update-customer-settings-per-channel",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Customer Validate Credentials",
+        "items": [
+          {
+            "id": "3d731215a3dcb",
+            "title": "Validate a customer credentials",
+            "type": "http_operation",
+            "slug": "3d731215a3dcb-validate-a-customer-credentials",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0fcedf8b4424c",
+    "title": "Custom Template Associations",
+    "type": "http_service",
+    "slug": "0fcedf8b4424c-custom-template-associations",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Custom Template Associations",
+        "items": [
+          {
+            "id": "4efa8f6f32471",
+            "title": "Get Custom Template Associations",
+            "type": "http_operation",
+            "slug": "4efa8f6f32471-get-custom-template-associations",
+            "meta": "get"
+          },
+          {
+            "id": "69377d30c3d6e",
+            "title": "Upsert Custom Template Associations",
+            "type": "http_operation",
+            "slug": "69377d30c3d6e-upsert-custom-template-associations",
+            "meta": "put"
+          },
+          {
+            "id": "e03558d9ed8fe",
+            "title": "Delete Custom Template Associations",
+            "type": "http_operation",
+            "slug": "e03558d9ed8fe-delete-custom-template-associations",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1b4d77629cc98",
+    "title": "Email Templates",
+    "type": "http_service",
+    "slug": "1b4d77629cc98-email-templates",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Email Templates",
+        "items": [
+          {
+            "id": "14ed3b4936045",
+            "title": "Get Email Templates",
+            "type": "http_operation",
+            "slug": "14ed3b4936045-get-email-templates",
+            "meta": "get"
+          },
+          {
+            "id": "9523ef5c53087",
+            "title": "Get an Email Template",
+            "type": "http_operation",
+            "slug": "9523ef5c53087-get-an-email-template",
+            "meta": "get"
+          },
+          {
+            "id": "d7f1f0e6da169",
+            "title": "Update a Template",
+            "type": "http_operation",
+            "slug": "d7f1f0e6da169-update-a-template",
+            "meta": "put"
+          },
+          {
+            "id": "678e001f95b94",
+            "title": "Delete Email Template Override",
+            "type": "http_operation",
+            "slug": "678e001f95b94-delete-email-template-override",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4b1d653b5b466",
+    "title": "Geography",
+    "type": "http_service",
+    "slug": "4b1d653b5b466-geography",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Countries",
+        "items": [
+          {
+            "id": "9f4570c698ed0",
+            "title": "Get All Countries",
+            "type": "http_operation",
+            "slug": "9f4570c698ed0-get-all-countries",
+            "meta": "get"
+          },
+          {
+            "id": "c6ff1ffd48505",
+            "title": "Get a Country",
+            "type": "http_operation",
+            "slug": "c6ff1ffd48505-get-a-country",
+            "meta": "get"
+          },
+          {
+            "id": "6cf5ee12817ab",
+            "title": "Get a Count of All Countries",
+            "type": "http_operation",
+            "slug": "6cf5ee12817ab-get-a-count-of-all-countries",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "States",
+        "items": [
+          {
+            "id": "f069963e51b9b",
+            "title": "Get All Country's States",
+            "type": "http_operation",
+            "slug": "f069963e51b9b-get-all-country-s-states",
+            "meta": "get"
+          },
+          {
+            "id": "45aef6825c3ef",
+            "title": "Get a Country's State",
+            "type": "http_operation",
+            "slug": "45aef6825c3ef-get-a-country-s-state",
+            "meta": "get"
+          },
+          {
+            "id": "016f684e44664",
+            "title": "Get a Count of All States",
+            "type": "http_operation",
+            "slug": "016f684e44664-get-a-count-of-all-states",
+            "meta": "get"
+          },
+          {
+            "id": "fc7ad7742ab87",
+            "title": "Get All States",
+            "type": "http_operation",
+            "slug": "fc7ad7742ab87-get-all-states",
+            "meta": "get"
+          },
+          {
+            "id": "5243b9e1afe44",
+            "title": "Get a Count of Country’s States ",
+            "type": "http_operation",
+            "slug": "5243b9e1afe44-get-a-count-of-country-s-states",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a315bf0c38635",
+    "title": "GraphQL Tokens",
+    "type": "http_service",
+    "slug": "a315bf0c38635-storefront-token",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "API Token",
+        "items": [
+          {
+            "id": "044bc7b21e5b4",
+            "title": "Create a Token",
+            "type": "http_operation",
+            "slug": "044bc7b21e5b4-create-a-token",
+            "meta": "post"
+          },
+          {
+            "id": "9d3747546a160",
+            "title": "Revoke a Token",
+            "type": "http_operation",
+            "slug": "9d3747546a160-revoke-a-token",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Customer Impersonation Token",
+        "items": [
+          {
+            "id": "5cd1d19897e92",
+            "title": "Create a Token",
+            "type": "http_operation",
+            "slug": "5cd1d19897e92-create-a-token",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "68dff37b2c855",
+    "title": "Marketing",
+    "type": "http_service",
+    "slug": "68dff37b2c855-marketing",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Banners",
+        "items": [
+          {
+            "id": "574c01ed636eb",
+            "title": "Get All Banners",
+            "type": "http_operation",
+            "slug": "574c01ed636eb-get-all-banners",
+            "meta": "get"
+          },
+          {
+            "id": "e950bf05413d3",
+            "title": "Create a Banner",
+            "type": "http_operation",
+            "slug": "e950bf05413d3-create-a-banner",
+            "meta": "post"
+          },
+          {
+            "id": "e9e91ae96d66d",
+            "title": "Delete All Banners",
+            "type": "http_operation",
+            "slug": "e9e91ae96d66d-delete-all-banners",
+            "meta": "delete"
+          },
+          {
+            "id": "ed135fb36d60f",
+            "title": "Get a Banner",
+            "type": "http_operation",
+            "slug": "ed135fb36d60f-get-a-banner",
+            "meta": "get"
+          },
+          {
+            "id": "d751bdd2c2752",
+            "title": "Update a Banner",
+            "type": "http_operation",
+            "slug": "d751bdd2c2752-update-a-banner",
+            "meta": "put"
+          },
+          {
+            "id": "b7f18eee61651",
+            "title": "Delete a Banner",
+            "type": "http_operation",
+            "slug": "b7f18eee61651-delete-a-banner",
+            "meta": "delete"
+          },
+          {
+            "id": "e79f99f6ccb36",
+            "title": "Get a Count of Store Banners",
+            "type": "http_operation",
+            "slug": "e79f99f6ccb36-get-a-count-of-store-banners",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Coupons",
+        "items": [
+          {
+            "id": "d03532e4ad994",
+            "title": "Get All Coupons",
+            "type": "http_operation",
+            "slug": "d03532e4ad994-get-all-coupons",
+            "meta": "get"
+          },
+          {
+            "id": "023202e138f93",
+            "title": "Create a New Coupon",
+            "type": "http_operation",
+            "slug": "023202e138f93-create-a-new-coupon",
+            "meta": "post"
+          },
+          {
+            "id": "60cb04b0ef9a6",
+            "title": "Delete All Coupons",
+            "type": "http_operation",
+            "slug": "60cb04b0ef9a6-delete-all-coupons",
+            "meta": "delete"
+          },
+          {
+            "id": "3928d8c0bd389",
+            "title": "Get a Count of Coupons",
+            "type": "http_operation",
+            "slug": "3928d8c0bd389-get-a-count-of-coupons",
+            "meta": "get"
+          },
+          {
+            "id": "302ca61ff7242",
+            "title": "Update a Coupon",
+            "type": "http_operation",
+            "slug": "302ca61ff7242-update-a-coupon",
+            "meta": "put"
+          },
+          {
+            "id": "6219bf79ec696",
+            "title": "Delete a Coupon",
+            "type": "http_operation",
+            "slug": "6219bf79ec696-delete-a-coupon",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Gift Certificates",
+        "items": [
+          {
+            "id": "22ea56cd3e692",
+            "title": "Get a Gift Certificate",
+            "type": "http_operation",
+            "slug": "22ea56cd3e692-get-a-gift-certificate",
+            "meta": "get"
+          },
+          {
+            "id": "023342339e9b0",
+            "title": "Delete a Gift Certificate",
+            "type": "http_operation",
+            "slug": "023342339e9b0-delete-a-gift-certificate",
+            "meta": "delete"
+          },
+          {
+            "id": "9ce57b301c891",
+            "title": "Update a Gift Certificate",
+            "type": "http_operation",
+            "slug": "9ce57b301c891-update-a-gift-certificate",
+            "meta": "put"
+          },
+          {
+            "id": "cee3b9dae1d79",
+            "title": "Get All Gift Certificates",
+            "type": "http_operation",
+            "slug": "cee3b9dae1d79-get-all-gift-certificates",
+            "meta": "get"
+          },
+          {
+            "id": "33170ef283030",
+            "title": "Create a Gift Certificate",
+            "type": "http_operation",
+            "slug": "33170ef283030-create-a-gift-certificate",
+            "meta": "post"
+          },
+          {
+            "id": "2fd39187cfee4",
+            "title": "Delete All Gift Certificates",
+            "type": "http_operation",
+            "slug": "2fd39187cfee4-delete-all-gift-certificates",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e898c792ecd41",
+    "title": "Orders v2",
+    "type": "http_service",
+    "slug": "e898c792ecd41-orders-v2",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Orders",
+        "items": [
+          {
+            "id": "a91f7bd42e987",
+            "title": "Get an Order",
+            "type": "http_operation",
+            "slug": "a91f7bd42e987-get-an-order",
+            "meta": "get"
+          },
+          {
+            "id": "d140040bfe6ef",
+            "title": "Update an Order",
+            "type": "http_operation",
+            "slug": "d140040bfe6ef-update-an-order",
+            "meta": "put"
+          },
+          {
+            "id": "09cd2ee81b9c9",
+            "title": "Archive an Order",
+            "type": "http_operation",
+            "slug": "09cd2ee81b9c9-archive-an-order",
+            "meta": "delete"
+          },
+          {
+            "id": "69382bdc67723",
+            "title": "Get a Count of Orders",
+            "type": "http_operation",
+            "slug": "69382bdc67723-get-a-count-of-orders",
+            "meta": "get"
+          },
+          {
+            "id": "82f91b58d0c98",
+            "title": "Get All Orders",
+            "type": "http_operation",
+            "slug": "82f91b58d0c98-get-all-orders",
+            "meta": "get"
+          },
+          {
+            "id": "d14aba578fef1",
+            "title": "Create an Order",
+            "type": "http_operation",
+            "slug": "d14aba578fef1-create-an-order",
+            "meta": "post"
+          },
+          {
+            "id": "a584193e3151d",
+            "title": "Delete All Orders",
+            "type": "http_operation",
+            "slug": "a584193e3151d-delete-all-orders",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Order Coupons",
+        "items": [
+          {
+            "id": "da43a76da17f3",
+            "title": "List Order Coupons",
+            "type": "http_operation",
+            "slug": "da43a76da17f3-list-order-coupons",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Products",
+        "items": [
+          {
+            "id": "3b4dfef625708",
+            "title": "List Order Products",
+            "type": "http_operation",
+            "slug": "3b4dfef625708-list-order-products",
+            "meta": "get"
+          },
+          {
+            "id": "8fd179a4918db",
+            "title": "Get an Order Product",
+            "type": "http_operation",
+            "slug": "8fd179a4918db-get-an-order-product",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Taxes",
+        "items": [
+          {
+            "id": "5ba0733461006",
+            "title": "Get All Order Taxes",
+            "type": "http_operation",
+            "slug": "5ba0733461006-get-all-order-taxes",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Status",
+        "items": [
+          {
+            "id": "d24b6b0f03eb7",
+            "title": "Get All Order Statuses",
+            "type": "http_operation",
+            "slug": "d24b6b0f03eb7-get-all-order-statuses",
+            "meta": "get"
+          },
+          {
+            "id": "7e41c00dafd04",
+            "title": "Get a Single Order Status by Id",
+            "type": "http_operation",
+            "slug": "7e41c00dafd04-get-a-single-order-status-by-id",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Shipments",
+        "items": [
+          {
+            "id": "ff860667cfc4e",
+            "title": "Get Order Shipments",
+            "type": "http_operation",
+            "slug": "ff860667cfc4e-get-order-shipments",
+            "meta": "get"
+          },
+          {
+            "id": "db33d0952b3bc",
+            "title": "Create Order Shipment",
+            "type": "http_operation",
+            "slug": "db33d0952b3bc-create-order-shipment",
+            "meta": "post"
+          },
+          {
+            "id": "1308aca9c909e",
+            "title": "Delete Order Shipments",
+            "type": "http_operation",
+            "slug": "1308aca9c909e-delete-order-shipments",
+            "meta": "delete"
+          },
+          {
+            "id": "e7a501d1f5d8f",
+            "title": "Get Count of Order Shipments",
+            "type": "http_operation",
+            "slug": "e7a501d1f5d8f-get-count-of-order-shipments",
+            "meta": "get"
+          },
+          {
+            "id": "84ac8f5a68186",
+            "title": "Get a Shipment",
+            "type": "http_operation",
+            "slug": "84ac8f5a68186-get-a-shipment",
+            "meta": "get"
+          },
+          {
+            "id": "fa95fffe7822b",
+            "title": "Update a Shipment",
+            "type": "http_operation",
+            "slug": "fa95fffe7822b-update-a-shipment",
+            "meta": "put"
+          },
+          {
+            "id": "13c4a6ef5bf75",
+            "title": "Delete an Order Shipment",
+            "type": "http_operation",
+            "slug": "13c4a6ef5bf75-delete-an-order-shipment",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Order Shipping Addresses",
+        "items": [
+          {
+            "id": "96cc44c8e9321",
+            "title": "Get Order Shipping Addresses",
+            "type": "http_operation",
+            "slug": "96cc44c8e9321-get-order-shipping-addresses",
+            "meta": "get"
+          },
+          {
+            "id": "88829242e6459",
+            "title": "Get a Shipping Address",
+            "type": "http_operation",
+            "slug": "88829242e6459-get-a-shipping-address",
+            "meta": "get"
+          },
+          {
+            "id": "a99057b170552",
+            "title": "Update a Shipping Address",
+            "type": "http_operation",
+            "slug": "a99057b170552-update-a-shipping-address",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Order Messages",
+        "items": [
+          {
+            "id": "e95114e312eb1",
+            "title": "Get Order Messages",
+            "type": "http_operation",
+            "slug": "e95114e312eb1-get-order-messages",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Shipping Addresses Quotes",
+        "items": [
+          {
+            "id": "e7ee0ca254fbd",
+            "title": "Get Order Shipping Quotes",
+            "type": "http_operation",
+            "slug": "e7ee0ca254fbd-get-order-shipping-quotes",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e3515af390bbc",
+    "title": "Orders v3",
+    "type": "http_service",
+    "slug": "e3515af390bbc-orders-v3",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Metafields",
+        "items": [
+          {
+            "id": "109b92ccf2c3c",
+            "title": "Get Metafields",
+            "type": "http_operation",
+            "slug": "109b92ccf2c3c-get-metafields",
+            "meta": "get"
+          },
+          {
+            "id": "1fc3689311c97",
+            "title": "Create Metafields",
+            "type": "http_operation",
+            "slug": "1fc3689311c97-create-metafields",
+            "meta": "post"
+          },
+          {
+            "id": "5b9d3e98a9ede",
+            "title": "Get a Metafield",
+            "type": "http_operation",
+            "slug": "5b9d3e98a9ede-get-a-metafield",
+            "meta": "get"
+          },
+          {
+            "id": "300665e3910a1",
+            "title": "Update a Metafield",
+            "type": "http_operation",
+            "slug": "300665e3910a1-update-a-metafield",
+            "meta": "put"
+          },
+          {
+            "id": "6d0379029d33d",
+            "title": "Delete a Metafield",
+            "type": "http_operation",
+            "slug": "6d0379029d33d-delete-a-metafield",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Payment Actions",
+        "items": [
+          {
+            "id": "e5aad35fa8eba",
+            "title": "Capture",
+            "type": "http_operation",
+            "slug": "e5aad35fa8eba-capture",
+            "meta": "post"
+          },
+          {
+            "id": "f1cdbb5e25ec9",
+            "title": "Void",
+            "type": "http_operation",
+            "slug": "f1cdbb5e25ec9-void",
+            "meta": "post"
+          },
+          {
+            "id": "39308e0002a56",
+            "title": "Create a Refund Quote",
+            "type": "http_operation",
+            "slug": "39308e0002a56-create-a-refund-quote",
+            "meta": "post"
+          },
+          {
+            "id": "76a2123cd6bfd",
+            "title": "Create a Refund",
+            "type": "http_operation",
+            "slug": "76a2123cd6bfd-create-a-refund",
+            "meta": "post"
+          },
+          {
+            "id": "9959f9f2a03e4",
+            "title": "Get Refunds for Order",
+            "type": "http_operation",
+            "slug": "9959f9f2a03e4-get-refunds-for-order",
+            "meta": "get"
+          },
+          {
+            "id": "be8612bf4310a",
+            "title": "Get a Refund",
+            "type": "http_operation",
+            "slug": "be8612bf4310a-get-a-refund",
+            "meta": "get"
+          },
+          {
+            "id": "1b566a076b712",
+            "title": "Create Refund Quotes - BATCH",
+            "type": "http_operation",
+            "slug": "1b566a076b712-create-refund-quotes-batch",
+            "meta": "post"
+          },
+          {
+            "id": "961867b3105c1",
+            "title": "Get All Refunds",
+            "type": "http_operation",
+            "slug": "961867b3105c1-get-all-refunds",
+            "meta": "get"
+          },
+          {
+            "id": "fe88e0fae3e87",
+            "title": "Create Refunds - BATCH",
+            "type": "http_operation",
+            "slug": "fe88e0fae3e87-create-refunds-batch",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Transactions",
+        "items": [
+          {
+            "id": "4f98780edf0b9",
+            "title": "Get Transactions",
+            "type": "http_operation",
+            "slug": "4f98780edf0b9-get-transactions",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Order Settings",
+        "items": [
+          {
+            "id": "ff28536d2b5ad",
+            "title": "Get Global Order Settings",
+            "type": "http_operation",
+            "slug": "ff28536d2b5ad-get-global-order-settings",
+            "meta": "get"
+          },
+          {
+            "id": "0fa6942f479f9",
+            "title": "Update Global Order Settings",
+            "type": "http_operation",
+            "slug": "0fa6942f479f9-update-global-order-settings",
+            "meta": "put"
+          },
+          {
+            "id": "78a320942d339",
+            "title": "Get Channel Order Settings",
+            "type": "http_operation",
+            "slug": "78a320942d339-get-channel-order-settings",
+            "meta": "get"
+          },
+          {
+            "id": "57838d1d67e8e",
+            "title": "Update Channel Order Settings",
+            "type": "http_operation",
+            "slug": "57838d1d67e8e-update-channel-order-settings",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16c5ea267cfec",
+    "title": "Pages v3",
+    "type": "http_service",
+    "slug": "16c5ea267cfec-pages-v3",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Pages",
+        "items": [
+          {
+            "id": "831028b2a1c70",
+            "title": "Get Pages",
+            "type": "http_operation",
+            "slug": "831028b2a1c70-get-pages",
+            "meta": "get"
+          },
+          {
+            "id": "726d081517f41",
+            "title": "Create Pages",
+            "type": "http_operation",
+            "slug": "726d081517f41-create-pages",
+            "meta": "post"
+          },
+          {
+            "id": "649c64eea69de",
+            "title": "Update Pages",
+            "type": "http_operation",
+            "slug": "649c64eea69de-update-pages",
+            "meta": "put"
+          },
+          {
+            "id": "d74089ee212a2",
+            "title": "Delete Pages",
+            "type": "http_operation",
+            "slug": "d74089ee212a2-delete-pages",
+            "meta": "delete"
+          },
+          {
+            "id": "4f43c76e8b328",
+            "title": "Get a Page",
+            "type": "http_operation",
+            "slug": "4f43c76e8b328-get-a-page",
+            "meta": "get"
+          },
+          {
+            "id": "6c5e4116f0e45",
+            "title": "Update a Page",
+            "type": "http_operation",
+            "slug": "6c5e4116f0e45-update-a-page",
+            "meta": "put"
+          },
+          {
+            "id": "38cde783b23b9",
+            "title": "Delete a Page",
+            "type": "http_operation",
+            "slug": "38cde783b23b9-delete-a-page",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69373805df8de",
+    "title": "Payment Methods",
+    "type": "http_service",
+    "slug": "69373805df8de-payment-methods",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Payment Methods",
+        "items": [
+          {
+            "id": "a6936b9439d0a",
+            "title": "Get All Payment Methods",
+            "type": "http_operation",
+            "slug": "a6936b9439d0a-get-all-payment-methods",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f03b6f1b8e525",
+    "title": "Payment Processing",
+    "type": "http_service",
+    "slug": "f03b6f1b8e525-payment-processing",
+    "meta": "",
+    "items": [
+      {
+        "title": "Accepted Methods",
+        "items": [
+          {
+            "id": "ad49e43ce0a38",
+            "title": "Get Accepted Payment Methods",
+            "type": "http_operation",
+            "slug": "ad49e43ce0a38-get-accepted-payment-methods",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Access Tokens",
+        "items": [
+          {
+            "id": "6f870fc8165f8",
+            "title": "Create Payment Access Token",
+            "type": "http_operation",
+            "slug": "6f870fc8165f8-create-payment-access-token",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Process Payment",
+        "items": [
+          {
+            "id": "dc7cd42b5a2d0",
+            "title": "Process Payment",
+            "type": "http_operation",
+            "slug": "dc7cd42b5a2d0-process-payment",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03ccc21a5371b",
+    "title": "Pricing",
+    "type": "http_service",
+    "slug": "03ccc21a5371b-pricing",
+    "meta": "",
+    "items": [
+      {
+        "title": "Products",
+        "items": [
+          {
+            "id": "92c669fa29742",
+            "title": "Get Prices (Batch)",
+            "type": "http_operation",
+            "slug": "92c669fa29742-get-prices-batch",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1febfbb2533fc",
+    "title": "Price Lists",
+    "type": "http_service",
+    "slug": "1febfbb2533fc-price-lists",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Price Lists",
+        "items": [
+          {
+            "id": "5e517c58b6fb9",
+            "title": "Get All Price Lists",
+            "type": "http_operation",
+            "slug": "5e517c58b6fb9-get-all-price-lists",
+            "meta": "get"
+          },
+          {
+            "id": "56c8f278c7e96",
+            "title": "Create a Price List",
+            "type": "http_operation",
+            "slug": "56c8f278c7e96-create-a-price-list",
+            "meta": "post"
+          },
+          {
+            "id": "dd235f96f0849",
+            "title": "Delete All Price Lists",
+            "type": "http_operation",
+            "slug": "dd235f96f0849-delete-all-price-lists",
+            "meta": "delete"
+          },
+          {
+            "id": "19a4dea918bb3",
+            "title": "Get a Price List",
+            "type": "http_operation",
+            "slug": "19a4dea918bb3-get-a-price-list",
+            "meta": "get"
+          },
+          {
+            "id": "056f437ff0310",
+            "title": "Update a Price List",
+            "type": "http_operation",
+            "slug": "056f437ff0310-update-a-price-list",
+            "meta": "put"
+          },
+          {
+            "id": "ef0e34b6670f7",
+            "title": "Delete a Price List",
+            "type": "http_operation",
+            "slug": "ef0e34b6670f7-delete-a-price-list",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Price Lists Assignments",
+        "items": [
+          {
+            "id": "c452375202720",
+            "title": "Create Price List Assignments",
+            "type": "http_operation",
+            "slug": "c452375202720-create-price-list-assignments",
+            "meta": "post"
+          },
+          {
+            "id": "35377e7b7102c",
+            "title": "Get Price List Assignments",
+            "type": "http_operation",
+            "slug": "35377e7b7102c-get-price-list-assignments",
+            "meta": "get"
+          },
+          {
+            "id": "30c16b1631b8f",
+            "title": "Delete Price List Assignments",
+            "type": "http_operation",
+            "slug": "30c16b1631b8f-delete-price-list-assignments",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Price Lists Records",
+        "items": [
+          {
+            "id": "ae325e45180de",
+            "title": "Get All Price List Records",
+            "type": "http_operation",
+            "slug": "ae325e45180de-get-all-price-list-records",
+            "meta": "get"
+          },
+          {
+            "id": "bc6aa39555f21",
+            "title": "Upsert Price List Records",
+            "type": "http_operation",
+            "slug": "bc6aa39555f21-upsert-price-list-records",
+            "meta": "put"
+          },
+          {
+            "id": "eceeaa257ed02",
+            "title": "Delete a Price List Record",
+            "type": "http_operation",
+            "slug": "eceeaa257ed02-delete-a-price-list-record",
+            "meta": "delete"
+          },
+          {
+            "id": "9eb908ec0a0fc",
+            "title": "Get Price Records by Variant",
+            "type": "http_operation",
+            "slug": "9eb908ec0a0fc-get-price-records-by-variant",
+            "meta": "get"
+          },
+          {
+            "id": "fdda567a1beec",
+            "title": "Get a Price Record by Currency Code",
+            "type": "http_operation",
+            "slug": "fdda567a1beec-get-a-price-record-by-currency-code",
+            "meta": "get"
+          },
+          {
+            "id": "6800ade3e7905",
+            "title": "Set Price List Record by Currency Code",
+            "type": "http_operation",
+            "slug": "6800ade3e7905-set-price-list-record-by-currency-code",
+            "meta": "put"
+          },
+          {
+            "id": "5ceb8b5d9e19e",
+            "title": "Delete a Price Record by Currency Code",
+            "type": "http_operation",
+            "slug": "5ceb8b5d9e19e-delete-a-price-record-by-currency-code",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "482eabdffd8a2",
+    "title": "Redirects v3",
+    "type": "http_service",
+    "slug": "482eabdffd8a2-redirects",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Redirects",
+        "items": [
+          {
+            "id": "1080e1b70f2d6",
+            "title": "Get Redirects",
+            "type": "http_operation",
+            "slug": "1080e1b70f2d6-get-redirects",
+            "meta": "get"
+          },
+          {
+            "id": "9476c9e6ec8d5",
+            "title": "Upsert Redirects",
+            "type": "http_operation",
+            "slug": "9476c9e6ec8d5-upsert-redirects",
+            "meta": "put"
+          },
+          {
+            "id": "48f8d88ee61f9",
+            "title": "Delete Redirects",
+            "type": "http_operation",
+            "slug": "48f8d88ee61f9-delete-redirects",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7c76e479254a",
+    "title": "Scripts",
+    "type": "http_service",
+    "slug": "e7c76e479254a-scripts",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Scripts",
+        "items": [
+          {
+            "id": "99ba5fd00ad56",
+            "title": "Create a Script",
+            "type": "http_operation",
+            "slug": "99ba5fd00ad56-create-a-script",
+            "meta": "post"
+          },
+          {
+            "id": "5cb1b616e2e42",
+            "title": "Get All Scripts",
+            "type": "http_operation",
+            "slug": "5cb1b616e2e42-get-all-scripts",
+            "meta": "get"
+          },
+          {
+            "id": "f230c208ede7b",
+            "title": "Get a Script",
+            "type": "http_operation",
+            "slug": "f230c208ede7b-get-a-script",
+            "meta": "get"
+          },
+          {
+            "id": "e7f3c07e5d326",
+            "title": "Update a Script",
+            "type": "http_operation",
+            "slug": "e7f3c07e5d326-update-a-script",
+            "meta": "put"
+          },
+          {
+            "id": "4931a2a59debc",
+            "title": "Delete a Script",
+            "type": "http_operation",
+            "slug": "4931a2a59debc-delete-a-script",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aeda02cc970dc",
+    "title": "Settings",
+    "type": "http_service",
+    "slug": "aeda02cc970dc-settings-v3",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Email Statuses",
+        "items": [
+          {
+            "id": "ad8ee7afbd646",
+            "title": "Get Transactional Email Settings",
+            "type": "http_operation",
+            "slug": "ad8ee7afbd646-get-transactional-email-settings",
+            "meta": "get"
+          },
+          {
+            "id": "494334ad892c8",
+            "title": "Update Transactional Email Settings",
+            "type": "http_operation",
+            "slug": "494334ad892c8-update-transactional-email-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Search Filters",
+        "items": [
+          {
+            "id": "11ff40a159190",
+            "title": "Get Enabled Filters",
+            "type": "http_operation",
+            "slug": "11ff40a159190-get-enabled-filters",
+            "meta": "get"
+          },
+          {
+            "id": "4b0e240bf8606",
+            "title": "Update Enabled Filters",
+            "type": "http_operation",
+            "slug": "4b0e240bf8606-update-enabled-filters",
+            "meta": "put"
+          },
+          {
+            "id": "dd35246917647",
+            "title": "Get Available Filters",
+            "type": "http_operation",
+            "slug": "dd35246917647-get-available-filters",
+            "meta": "get"
+          },
+          {
+            "id": "b235a8e0b1e2a",
+            "title": "Get Contextual Filters",
+            "type": "http_operation",
+            "slug": "b235a8e0b1e2a-get-contextual-filters",
+            "meta": "get"
+          },
+          {
+            "id": "aea07d5db2bdc",
+            "title": "Upsert Contextual Filters",
+            "type": "http_operation",
+            "slug": "aea07d5db2bdc-upsert-contextual-filters",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Store Locale",
+        "items": [
+          {
+            "id": "d2dc69afb8ae7",
+            "title": "Get Locale Settings",
+            "type": "http_operation",
+            "slug": "d2dc69afb8ae7-get-locale-settings",
+            "meta": "get"
+          },
+          {
+            "id": "7341eba722ba4",
+            "title": "Update Locale Settings",
+            "type": "http_operation",
+            "slug": "7341eba722ba4-update-locale-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Category",
+        "items": [
+          {
+            "id": "f303235da034e",
+            "title": "Get Storefront Category Settings",
+            "type": "http_operation",
+            "slug": "f303235da034e-get-storefront-category-settings",
+            "meta": "get"
+          },
+          {
+            "id": "b87811065858e",
+            "title": "Update Storefront Category Settings",
+            "type": "http_operation",
+            "slug": "b87811065858e-update-storefront-category-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Robotstxt",
+        "items": [
+          {
+            "id": "f826ce79e7268",
+            "title": "Get Robots.txt Settings",
+            "type": "http_operation",
+            "slug": "f826ce79e7268-get-robots-txt-settings",
+            "meta": "get"
+          },
+          {
+            "id": "3278a982f162a",
+            "title": "Update Robots.txt Settings",
+            "type": "http_operation",
+            "slug": "3278a982f162a-update-robots-txt-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Search",
+        "items": [
+          {
+            "id": "f687925b49cc9",
+            "title": "Get Storefront Search Settings",
+            "type": "http_operation",
+            "slug": "f687925b49cc9-get-storefront-search-settings",
+            "meta": "get"
+          },
+          {
+            "id": "658458ae7fb73",
+            "title": "Update Storefront Search Settings",
+            "type": "http_operation",
+            "slug": "658458ae7fb73-update-storefront-search-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Security",
+        "items": [
+          {
+            "id": "e68d1525856a0",
+            "title": "Get Storefront Security Settings",
+            "type": "http_operation",
+            "slug": "e68d1525856a0-get-storefront-security-settings",
+            "meta": "get"
+          },
+          {
+            "id": "4cc8771713c2b",
+            "title": "Update Storefront Security Settings",
+            "type": "http_operation",
+            "slug": "4cc8771713c2b-update-storefront-security-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront SEO",
+        "items": [
+          {
+            "id": "da219e60e3db8",
+            "title": "Get Storefront SEO Settings",
+            "type": "http_operation",
+            "slug": "da219e60e3db8-get-storefront-seo-settings",
+            "meta": "get"
+          },
+          {
+            "id": "78827db9b3dc3",
+            "title": "Update Storefront SEO Settings",
+            "type": "http_operation",
+            "slug": "78827db9b3dc3-update-storefront-seo-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Status",
+        "items": [
+          {
+            "id": "9c3e93feb6a21",
+            "title": "Get Storefront Status",
+            "type": "http_operation",
+            "slug": "9c3e93feb6a21-get-storefront-status",
+            "meta": "get"
+          },
+          {
+            "id": "ca4d5f95975c0",
+            "title": "Update Storefront Status",
+            "type": "http_operation",
+            "slug": "ca4d5f95975c0-update-storefront-status",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Analytics",
+        "items": [
+          {
+            "id": "d85329059b297",
+            "title": "Get All Web Analytics Providers",
+            "type": "http_operation",
+            "slug": "d85329059b297-get-all-web-analytics-providers",
+            "meta": "get"
+          },
+          {
+            "id": "e3acbd80c4004",
+            "title": "Get a Web Analytics Provider",
+            "type": "http_operation",
+            "slug": "e3acbd80c4004-get-a-web-analytics-provider",
+            "meta": "get"
+          },
+          {
+            "id": "26f97a0ccfeec",
+            "title": "Update a Web Analytics Provider",
+            "type": "http_operation",
+            "slug": "26f97a0ccfeec-update-a-web-analytics-provider",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Catalog",
+        "items": [
+          {
+            "id": "0b3f16cef23ed",
+            "title": "Get Catalog Settings",
+            "type": "http_operation",
+            "slug": "0b3f16cef23ed-get-catalog-settings",
+            "meta": "get"
+          },
+          {
+            "id": "fd9e60e7204a9",
+            "title": "Update Catalog Settings",
+            "type": "http_operation",
+            "slug": "fd9e60e7204a9-update-catalog-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Inventory",
+        "items": [
+          {
+            "id": "ed172d0769601",
+            "title": "Get Inventory Notifications Settings",
+            "type": "http_operation",
+            "slug": "ed172d0769601-get-inventory-notifications-settings",
+            "meta": "get"
+          },
+          {
+            "id": "ba78adbb172c3",
+            "title": "Update Inventory Notifications Settings",
+            "type": "http_operation",
+            "slug": "ba78adbb172c3-update-inventory-notifications-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Logo",
+        "items": [
+          {
+            "id": "a67ae07a84dc6",
+            "title": "Get Store Logo Settings",
+            "type": "http_operation",
+            "slug": "a67ae07a84dc6-get-store-logo-settings",
+            "meta": "get"
+          },
+          {
+            "id": "1531ea905c02d",
+            "title": "Update Store Logo Settings",
+            "type": "http_operation",
+            "slug": "1531ea905c02d-update-store-logo-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Logo Image",
+        "items": [
+          {
+            "id": "a081730307503",
+            "title": "Create Logo Image",
+            "type": "http_operation",
+            "slug": "a081730307503-create-logo-image",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Favicon Image",
+        "items": [
+          {
+            "id": "50c0ff4e65f93",
+            "title": "Create Favicon Image",
+            "type": "http_operation",
+            "slug": "50c0ff4e65f93-create-favicon-image",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Store Profile",
+        "items": [
+          {
+            "id": "ac86db39bc51e",
+            "title": "Get Store Profile Settings",
+            "type": "http_operation",
+            "slug": "ac86db39bc51e-get-store-profile-settings",
+            "meta": "get"
+          },
+          {
+            "id": "e49419e7e353b",
+            "title": "Update Store Profile Settings",
+            "type": "http_operation",
+            "slug": "e49419e7e353b-update-store-profile-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Storefront Product",
+        "items": [
+          {
+            "id": "d4a004e640c74",
+            "title": "Get Storefront Product Settings",
+            "type": "http_operation",
+            "slug": "d4a004e640c74-get-storefront-product-settings",
+            "meta": "get"
+          },
+          {
+            "id": "06782b0c42400",
+            "title": "Update Storefront Product Settings",
+            "type": "http_operation",
+            "slug": "06782b0c42400-update-storefront-product-settings",
+            "meta": "put"
+          }
+        ]
+      },
+      {
+        "title": "Common",
+        "items": [
+          {
+            "id": "e50c972e1e044",
+            "title": "Error",
+            "type": "model",
+            "slug": "e50c972e1e044-error",
+            "meta": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14c24a5d787b6",
+    "title": "Shipping v2",
+    "type": "http_service",
+    "slug": "14c24a5d787b6-shipping-v2",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Shipping Method",
+        "items": [
+          {
+            "id": "cba4a411f6d5e",
+            "title": "Get All Shipping Methods in a Zone",
+            "type": "http_operation",
+            "slug": "cba4a411f6d5e-get-all-shipping-methods-in-a-zone",
+            "meta": "get"
+          },
+          {
+            "id": "21e7ab3a37a33",
+            "title": "Create a Shipping Method",
+            "type": "http_operation",
+            "slug": "21e7ab3a37a33-create-a-shipping-method",
+            "meta": "post"
+          },
+          {
+            "id": "2b93936f9aad4",
+            "title": "Get a Shipping Method",
+            "type": "http_operation",
+            "slug": "2b93936f9aad4-get-a-shipping-method",
+            "meta": "get"
+          },
+          {
+            "id": "54a73ab2b6fe5",
+            "title": "Update a Shipping Method",
+            "type": "http_operation",
+            "slug": "54a73ab2b6fe5-update-a-shipping-method",
+            "meta": "put"
+          },
+          {
+            "id": "a81f7d17e25c3",
+            "title": "Delete a Shipping Method",
+            "type": "http_operation",
+            "slug": "a81f7d17e25c3-delete-a-shipping-method",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Shipping Carrier",
+        "items": [
+          {
+            "id": "a7856753b9276",
+            "title": "Update a Carrier Connection",
+            "type": "http_operation",
+            "slug": "a7856753b9276-update-a-carrier-connection",
+            "meta": "put"
+          },
+          {
+            "id": "cb79db45e7492",
+            "title": "Create a Carrier Connection",
+            "type": "http_operation",
+            "slug": "cb79db45e7492-create-a-carrier-connection",
+            "meta": "post"
+          },
+          {
+            "id": "3ce41da879b02",
+            "title": "Delete a Carrier Connection",
+            "type": "http_operation",
+            "slug": "3ce41da879b02-delete-a-carrier-connection",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Shipping Zones",
+        "items": [
+          {
+            "id": "a8a183b102166",
+            "title": "Get All Shipping Zones",
+            "type": "http_operation",
+            "slug": "a8a183b102166-get-all-shipping-zones",
+            "meta": "get"
+          },
+          {
+            "id": "82a066366cdd5",
+            "title": "Create a Shipping Zone",
+            "type": "http_operation",
+            "slug": "82a066366cdd5-create-a-shipping-zone",
+            "meta": "post"
+          },
+          {
+            "id": "db11a75453c8a",
+            "title": "Get a Shipping Zones",
+            "type": "http_operation",
+            "slug": "db11a75453c8a-get-a-shipping-zones",
+            "meta": "get"
+          },
+          {
+            "id": "d2ff921793497",
+            "title": "Update a Shipping Zone",
+            "type": "http_operation",
+            "slug": "d2ff921793497-update-a-shipping-zone",
+            "meta": "put"
+          },
+          {
+            "id": "9bdc830c7d1c8",
+            "title": "Delete a Shipping Zone",
+            "type": "http_operation",
+            "slug": "9bdc830c7d1c8-delete-a-shipping-zone",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6152f484c45d4",
+    "title": "Shipping v3",
+    "type": "http_service",
+    "slug": "6152f484c45d4-shipping-v3",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Products",
+        "items": [
+          {
+            "id": "0673aced0fb22",
+            "title": "Get Customs Information",
+            "type": "http_operation",
+            "slug": "0673aced0fb22-get-customs-information",
+            "meta": "get"
+          },
+          {
+            "id": "c404958621b9d",
+            "title": "Delete Customs Information",
+            "type": "http_operation",
+            "slug": "c404958621b9d-delete-customs-information",
+            "meta": "delete"
+          },
+          {
+            "id": "c1f48abb2d613",
+            "title": "Upsert Customs Information",
+            "type": "http_operation",
+            "slug": "c1f48abb2d613-upsert-customs-information",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "053ddd9fff27c",
+    "title": "Sites",
+    "type": "http_service",
+    "slug": "053ddd9fff27c-sites",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Sites",
+        "items": [
+          {
+            "id": "bb9e52d642878",
+            "title": "Create a Site",
+            "type": "http_operation",
+            "slug": "bb9e52d642878-create-a-site",
+            "meta": "post"
+          },
+          {
+            "id": "4981c78979bd3",
+            "title": "Get Sites",
+            "type": "http_operation",
+            "slug": "4981c78979bd3-get-sites",
+            "meta": "get"
+          },
+          {
+            "id": "8dff10a537b80",
+            "title": "Get a Site",
+            "type": "http_operation",
+            "slug": "8dff10a537b80-get-a-site",
+            "meta": "get"
+          },
+          {
+            "id": "46c5962ad8b4d",
+            "title": "Update a Site",
+            "type": "http_operation",
+            "slug": "46c5962ad8b4d-update-a-site",
+            "meta": "put"
+          },
+          {
+            "id": "a9247879beaed",
+            "title": "Delete a Site",
+            "type": "http_operation",
+            "slug": "a9247879beaed-delete-a-site",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Site Routes",
+        "items": [
+          {
+            "id": "264af6ae04399",
+            "title": "Get a Site's Routes",
+            "type": "http_operation",
+            "slug": "264af6ae04399-get-a-site-s-routes",
+            "meta": "get"
+          },
+          {
+            "id": "74bc9780eb023",
+            "title": "Create a Site Route",
+            "type": "http_operation",
+            "slug": "74bc9780eb023-create-a-site-route",
+            "meta": "post"
+          },
+          {
+            "id": "bfe4efb05eeed",
+            "title": "Update Site's Routes",
+            "type": "http_operation",
+            "slug": "bfe4efb05eeed-update-site-s-routes",
+            "meta": "put"
+          },
+          {
+            "id": "638cc88669034",
+            "title": "Get a Site Route",
+            "type": "http_operation",
+            "slug": "638cc88669034-get-a-site-route",
+            "meta": "get"
+          },
+          {
+            "id": "e12c4a713d33a",
+            "title": "Update a Site Route",
+            "type": "http_operation",
+            "slug": "e12c4a713d33a-update-a-site-route",
+            "meta": "put"
+          },
+          {
+            "id": "662b4efaed6bc",
+            "title": "Delete a Site Route",
+            "type": "http_operation",
+            "slug": "662b4efaed6bc-delete-a-site-route",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Site Certificate",
+        "items": [
+          {
+            "id": "913577d3655bc",
+            "title": "Get a Site's SSL/TSL Certificate Information",
+            "type": "http_operation",
+            "slug": "913577d3655bc-get-a-site-s-ssl-tsl-certificate-information",
+            "meta": "get"
+          },
+          {
+            "id": "d2fd00f367597",
+            "title": "Upsert a Site's SSL/TSL Certificate Information",
+            "type": "http_operation",
+            "slug": "d2fd00f367597-upsert-a-site-s-ssl-tsl-certificate-information",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a6c14aadf1467",
+    "title": "Store Content",
+    "type": "http_service",
+    "slug": "a6c14aadf1467-content",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Blog Posts",
+        "items": [
+          {
+            "id": "a4c027928daa2",
+            "title": "Get All Blog Posts",
+            "type": "http_operation",
+            "slug": "a4c027928daa2-get-all-blog-posts",
+            "meta": "get"
+          },
+          {
+            "id": "1b41aac9b9f54",
+            "title": "Create a Blog Post",
+            "type": "http_operation",
+            "slug": "1b41aac9b9f54-create-a-blog-post",
+            "meta": "post"
+          },
+          {
+            "id": "d3dec1c484de4",
+            "title": "Delete Blog Posts",
+            "type": "http_operation",
+            "slug": "d3dec1c484de4-delete-blog-posts",
+            "meta": "delete"
+          },
+          {
+            "id": "3502e1740f827",
+            "title": "Get a Blog Post",
+            "type": "http_operation",
+            "slug": "3502e1740f827-get-a-blog-post",
+            "meta": "get"
+          },
+          {
+            "id": "765ffdb6eb474",
+            "title": "Update a Blog Post",
+            "type": "http_operation",
+            "slug": "765ffdb6eb474-update-a-blog-post",
+            "meta": "put"
+          },
+          {
+            "id": "abb2cf918e859",
+            "title": "Delete a Blog Post",
+            "type": "http_operation",
+            "slug": "abb2cf918e859-delete-a-blog-post",
+            "meta": "delete"
+          },
+          {
+            "id": "c1dea2def6456",
+            "title": "Get A Count of All Blog Posts",
+            "type": "http_operation",
+            "slug": "c1dea2def6456-get-a-count-of-all-blog-posts",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Blog Tags",
+        "items": [
+          {
+            "id": "0408237d76e0c",
+            "title": "Get All Blog Tags",
+            "type": "http_operation",
+            "slug": "0408237d76e0c-get-all-blog-tags",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Pages",
+        "items": [
+          {
+            "id": "3343870d21ce4",
+            "title": "Get All Pages",
+            "type": "http_operation",
+            "slug": "3343870d21ce4-get-all-pages",
+            "meta": "get"
+          },
+          {
+            "id": "64e0e9c1beb64",
+            "title": "Create a Page",
+            "type": "http_operation",
+            "slug": "64e0e9c1beb64-create-a-page",
+            "meta": "post"
+          },
+          {
+            "id": "a289a4cf2e356",
+            "title": "Get A Page",
+            "type": "http_operation",
+            "slug": "a289a4cf2e356-get-a-page",
+            "meta": "get"
+          },
+          {
+            "id": "0d5a5dc2e48ff",
+            "title": "Update a Page",
+            "type": "http_operation",
+            "slug": "0d5a5dc2e48ff-update-a-page",
+            "meta": "put"
+          },
+          {
+            "id": "3a83ff56656f0",
+            "title": "Delete a Page",
+            "type": "http_operation",
+            "slug": "3a83ff56656f0-delete-a-page",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Redirects",
+        "items": [
+          {
+            "id": "17d54c7cc2eda",
+            "title": "Get All Redirects",
+            "type": "http_operation",
+            "slug": "17d54c7cc2eda-get-all-redirects",
+            "meta": "get"
+          },
+          {
+            "id": "822ce38f321ae",
+            "title": "Create a Redirect",
+            "type": "http_operation",
+            "slug": "822ce38f321ae-create-a-redirect",
+            "meta": "post"
+          },
+          {
+            "id": "f2985d21dcd70",
+            "title": "Delete All Redirects",
+            "type": "http_operation",
+            "slug": "f2985d21dcd70-delete-all-redirects",
+            "meta": "delete"
+          },
+          {
+            "id": "b51bfdd7c1941",
+            "title": "Get a Redirect",
+            "type": "http_operation",
+            "slug": "b51bfdd7c1941-get-a-redirect",
+            "meta": "get"
+          },
+          {
+            "id": "d73cc196d672c",
+            "title": "Update a Redirect",
+            "type": "http_operation",
+            "slug": "d73cc196d672c-update-a-redirect",
+            "meta": "put"
+          },
+          {
+            "id": "66dd1857bcbf2",
+            "title": "Delete a Redirect",
+            "type": "http_operation",
+            "slug": "66dd1857bcbf2-delete-a-redirect",
+            "meta": "delete"
+          },
+          {
+            "id": "e861ec8fe9b60",
+            "title": "Get a Count of Redirects",
+            "type": "http_operation",
+            "slug": "e861ec8fe9b60-get-a-count-of-redirects",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60c26649c4ec6",
+    "title": "Store Information",
+    "type": "http_service",
+    "slug": "60c26649c4ec6-store-information",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Store Information",
+        "items": [
+          {
+            "id": "bb1daaaeccae0",
+            "title": "Get Store Information",
+            "type": "http_operation",
+            "slug": "bb1daaaeccae0-get-store-information",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Time Zone",
+        "items": [
+          {
+            "id": "6355779f085f4",
+            "title": "Get System Timestamp",
+            "type": "http_operation",
+            "slug": "6355779f085f4-get-system-timestamp",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ea3de4b80a979",
+    "title": "Subscribers",
+    "type": "http_service",
+    "slug": "ea3de4b80a979-subscribers",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Subscribers",
+        "items": [
+          {
+            "id": "9463521ead2f5",
+            "title": "Get Subscribers",
+            "type": "http_operation",
+            "slug": "9463521ead2f5-get-subscribers",
+            "meta": "get"
+          },
+          {
+            "id": "0d422752d8859",
+            "title": "Create a Subscriber",
+            "type": "http_operation",
+            "slug": "0d422752d8859-create-a-subscriber",
+            "meta": "post"
+          },
+          {
+            "id": "9d7246a26c845",
+            "title": "Delete Subscribers",
+            "type": "http_operation",
+            "slug": "9d7246a26c845-delete-subscribers",
+            "meta": "delete"
+          },
+          {
+            "id": "1a58ea20602b1",
+            "title": "Get a Subscriber",
+            "type": "http_operation",
+            "slug": "1a58ea20602b1-get-a-subscriber",
+            "meta": "get"
+          },
+          {
+            "id": "74b172127e491",
+            "title": "Update a Subscriber",
+            "type": "http_operation",
+            "slug": "74b172127e491-update-a-subscriber",
+            "meta": "put"
+          },
+          {
+            "id": "e43cc0e279b20",
+            "title": "Delete a Subscriber",
+            "type": "http_operation",
+            "slug": "e43cc0e279b20-delete-a-subscriber",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3fc235701942e",
+    "title": "Tax Classes",
+    "type": "http_service",
+    "slug": "3fc235701942e-tax-classes",
+    "meta": "",
+    "version": "2",
+    "items": [
+      {
+        "title": "Taxes",
+        "items": [
+          {
+            "id": "f1da4843af414",
+            "title": "Get All Tax Classes",
+            "type": "http_operation",
+            "slug": "f1da4843af414-get-all-tax-classes",
+            "meta": "get"
+          },
+          {
+            "id": "3693aedf6caaa",
+            "title": "Get a Tax Class",
+            "type": "http_operation",
+            "slug": "3693aedf6caaa-get-a-tax-class",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb8c33b0b4a9b",
+    "title": "Tax Provider Connection",
+    "type": "http_service",
+    "slug": "cb8c33b0b4a9b-tax-provider-connection",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Tax Provider Connection",
+        "items": [
+          {
+            "id": "9d84eaa9192a8",
+            "title": "Get Connection Status",
+            "type": "http_operation",
+            "slug": "9d84eaa9192a8-get-connection-status",
+            "meta": "get"
+          },
+          {
+            "id": "9c4c73bb1a8ea",
+            "title": "Delete a Connection",
+            "type": "http_operation",
+            "slug": "9c4c73bb1a8ea-delete-a-connection",
+            "meta": "delete"
+          },
+          {
+            "id": "01337333b4644",
+            "title": "Update a Connection",
+            "type": "http_operation",
+            "slug": "01337333b4644-update-a-connection",
+            "meta": "put"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bffe6839dcabb",
+    "title": "Themes",
+    "type": "http_service",
+    "slug": "bffe6839dcabb-themes",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Themes",
+        "items": [
+          {
+            "id": "38ac9132c0810",
+            "title": "Get all Themes",
+            "type": "http_operation",
+            "slug": "38ac9132c0810-get-all-themes",
+            "meta": "get"
+          },
+          {
+            "id": "7f6ba94b629d0",
+            "title": "Upload a Theme",
+            "type": "http_operation",
+            "slug": "7f6ba94b629d0-upload-a-theme",
+            "meta": "post"
+          },
+          {
+            "id": "cfe2396c4364d",
+            "title": "Get a Theme",
+            "type": "http_operation",
+            "slug": "cfe2396c4364d-get-a-theme",
+            "meta": "get"
+          },
+          {
+            "id": "62e19ac6ca151",
+            "title": "Delete a Theme",
+            "type": "http_operation",
+            "slug": "62e19ac6ca151-delete-a-theme",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Theme Actions",
+        "items": [
+          {
+            "id": "24d4f462e909e",
+            "title": "Download a Theme",
+            "type": "http_operation",
+            "slug": "24d4f462e909e-download-a-theme",
+            "meta": "post"
+          },
+          {
+            "id": "74c84a2dc3574",
+            "title": "Activate a Theme",
+            "type": "http_operation",
+            "slug": "74c84a2dc3574-activate-a-theme",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Theme Configurations",
+        "items": [
+          {
+            "id": "1b09deab6f5e3",
+            "title": "Get Theme Configuration",
+            "type": "http_operation",
+            "slug": "1b09deab6f5e3-get-theme-configuration",
+            "meta": "get"
+          },
+          {
+            "id": "42fa88476a2c4",
+            "title": "Validate Theme Configuration",
+            "type": "http_operation",
+            "slug": "42fa88476a2c4-validate-theme-configuration",
+            "meta": "post"
+          }
+        ]
+      },
+      {
+        "title": "Theme Custom Templates",
+        "items": [
+          {
+            "id": "1fea285a88538",
+            "title": "Get Custom Templates",
+            "type": "http_operation",
+            "slug": "1fea285a88538-get-custom-templates",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Theme Jobs",
+        "items": [
+          {
+            "id": "8c5a2c4ae7b55",
+            "title": "Get a Theme Job",
+            "type": "http_operation",
+            "slug": "8c5a2c4ae7b55-get-a-theme-job",
+            "meta": "get"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42215449b4a78",
+    "title": "Widgets",
+    "type": "http_service",
+    "slug": "42215449b4a78-widgets",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Regions",
+        "items": [
+          {
+            "id": "5f4ab9eb3face",
+            "title": "Get Theme Regions",
+            "type": "http_operation",
+            "slug": "5f4ab9eb3face-get-theme-regions",
+            "meta": "get"
+          }
+        ]
+      },
+      {
+        "title": "Widget Template",
+        "items": [
+          {
+            "id": "b4c2dec5ea838",
+            "title": "Create a Widget Template",
+            "type": "http_operation",
+            "slug": "b4c2dec5ea838-create-a-widget-template",
+            "meta": "post"
+          },
+          {
+            "id": "15b810ee7c012",
+            "title": "Get All Widget Templates",
+            "type": "http_operation",
+            "slug": "15b810ee7c012-get-all-widget-templates",
+            "meta": "get"
+          },
+          {
+            "id": "0e9c069d84c7f",
+            "title": "Render a Widget Template",
+            "type": "http_operation",
+            "slug": "0e9c069d84c7f-render-a-widget-template",
+            "meta": "post"
+          },
+          {
+            "id": "5584aed41477b",
+            "title": "Get a Widget Template",
+            "type": "http_operation",
+            "slug": "5584aed41477b-get-a-widget-template",
+            "meta": "get"
+          },
+          {
+            "id": "cf742c21870fc",
+            "title": "Update a Widget Template",
+            "type": "http_operation",
+            "slug": "cf742c21870fc-update-a-widget-template",
+            "meta": "put"
+          },
+          {
+            "id": "fe99b55ac8823",
+            "title": "Delete A Widget Template",
+            "type": "http_operation",
+            "slug": "fe99b55ac8823-delete-a-widget-template",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Widget",
+        "items": [
+          {
+            "id": "190f69883bc40",
+            "title": "Get All Widgets by Search",
+            "type": "http_operation",
+            "slug": "190f69883bc40-get-all-widgets-by-search",
+            "meta": "get"
+          },
+          {
+            "id": "f3316d5c7a2c6",
+            "title": "Create a Widget",
+            "type": "http_operation",
+            "slug": "f3316d5c7a2c6-create-a-widget",
+            "meta": "post"
+          },
+          {
+            "id": "0eea5a1dfcd68",
+            "title": "Get All Widgets",
+            "type": "http_operation",
+            "slug": "0eea5a1dfcd68-get-all-widgets",
+            "meta": "get"
+          },
+          {
+            "id": "5be3f187a45f2",
+            "title": "Get a Widget",
+            "type": "http_operation",
+            "slug": "5be3f187a45f2-get-a-widget",
+            "meta": "get"
+          },
+          {
+            "id": "131e435c98779",
+            "title": "Update a Widget",
+            "type": "http_operation",
+            "slug": "131e435c98779-update-a-widget",
+            "meta": "put"
+          },
+          {
+            "id": "6a16a7d658bf3",
+            "title": "Delete a Widget",
+            "type": "http_operation",
+            "slug": "6a16a7d658bf3-delete-a-widget",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Placement",
+        "items": [
+          {
+            "id": "8b7c1518d4e8a",
+            "title": "Create a Placement",
+            "type": "http_operation",
+            "slug": "8b7c1518d4e8a-create-a-placement",
+            "meta": "post"
+          },
+          {
+            "id": "bde8dee94a07b",
+            "title": "Get All Placements",
+            "type": "http_operation",
+            "slug": "bde8dee94a07b-get-all-placements",
+            "meta": "get"
+          },
+          {
+            "id": "a8e53dc882f00",
+            "title": "Get a Placement",
+            "type": "http_operation",
+            "slug": "a8e53dc882f00-get-a-placement",
+            "meta": "get"
+          },
+          {
+            "id": "42ee529f48796",
+            "title": "Update a Placement",
+            "type": "http_operation",
+            "slug": "42ee529f48796-update-a-placement",
+            "meta": "put"
+          },
+          {
+            "id": "ee081f53fa48f",
+            "title": "Delete a Placement",
+            "type": "http_operation",
+            "slug": "ee081f53fa48f-delete-a-placement",
+            "meta": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03d6065d6f6e5",
+    "title": "Wishlists",
+    "type": "http_service",
+    "slug": "03d6065d6f6e5-wishlist",
+    "meta": "",
+    "version": "3",
+    "items": [
+      {
+        "title": "Wishlists",
+        "items": [
+          {
+            "id": "08dd46a47fe34",
+            "title": "Create a Wishlist",
+            "type": "http_operation",
+            "slug": "08dd46a47fe34-create-a-wishlist",
+            "meta": "post"
+          },
+          {
+            "id": "600adf683db36",
+            "title": "Get All Wishlists",
+            "type": "http_operation",
+            "slug": "600adf683db36-get-all-wishlists",
+            "meta": "get"
+          },
+          {
+            "id": "8381eefebf175",
+            "title": "Get a Wishlist",
+            "type": "http_operation",
+            "slug": "8381eefebf175-get-a-wishlist",
+            "meta": "get"
+          },
+          {
+            "id": "4b506a0bf8d7f",
+            "title": "Update a Wishlist",
+            "type": "http_operation",
+            "slug": "4b506a0bf8d7f-update-a-wishlist",
+            "meta": "put"
+          },
+          {
+            "id": "fc323ee1d9b57",
+            "title": "Delete a Wishlist",
+            "type": "http_operation",
+            "slug": "fc323ee1d9b57-delete-a-wishlist",
+            "meta": "delete"
+          }
+        ]
+      },
+      {
+        "title": "Wishlists Items",
+        "items": [
+          {
+            "id": "7915b5a7d22eb",
+            "title": "Delete Wishlist Item",
+            "type": "http_operation",
+            "slug": "7915b5a7d22eb-delete-wishlist-item",
+            "meta": "delete"
+          },
+          {
+            "id": "c60e2188ee4bf",
+            "title": "Add Wishlist Item",
+            "type": "http_operation",
+            "slug": "c60e2188ee4bf-add-wishlist-item",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  { "title": "Provider APIs" },
+  {
+    "id": "9d8ac68497f9d",
+    "title": "Shipping Provider API",
+    "type": "http_service",
+    "slug": "9d8ac68497f9d-shipping-providers",
+    "meta": "",
+    "items": [
+      {
+        "title": "Shipping Provider",
+        "items": [
+          {
+            "id": "0474916068db1",
+            "title": "Request shipping rates",
+            "type": "http_operation",
+            "slug": "0474916068db1-request-shipping-rates",
+            "meta": "post"
+          },
+          {
+            "id": "8cefe1d4b8eec",
+            "title": "Validate connection options",
+            "type": "http_operation",
+            "slug": "8cefe1d4b8eec-validate-connection-options",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a907ce3fce78e",
+    "title": "Tax Provider API",
+    "type": "http_service",
+    "slug": "a907ce3fce78e-tax-provider-api",
+    "meta": "",
+    "items": [
+      {
+        "title": "Tax Provider",
+        "items": [
+          {
+            "id": "b2a61a46c3c56",
+            "title": "Estimate Taxes",
+            "type": "http_operation",
+            "slug": "b2a61a46c3c56-estimate-taxes",
+            "meta": "post"
+          },
+          {
+            "id": "83019985eb8af",
+            "title": "Void Tax Quote",
+            "type": "http_operation",
+            "slug": "83019985eb8af-void-tax-quote",
+            "meta": "post"
+          },
+          {
+            "id": "9ff20898a54b9",
+            "title": "Commit Tax Quote",
+            "type": "http_operation",
+            "slug": "9ff20898a54b9-commit-tax-quote",
+            "meta": "post"
+          },
+          {
+            "id": "3e2101d3586c0",
+            "title": "Adjust Tax Quote",
+            "type": "http_operation",
+            "slug": "3e2101d3586c0-adjust-tax-quote",
+            "meta": "post"
+          }
+        ]
+      }
+    ]
+  },
+  { "title": "Template Objects" },
+  {
+    "id": "68c23e5ab6d9a",
+    "title": "Handlebars Email Template Objects",
+    "type": "model",
+    "slug": "68c23e5ab6d9a-handlebars-email-template-objects",
+    "meta": ""
+  },
+  {
+    "title": "Template Object Reference",
+    "url": "https://developer.bigcommerce.com/theme-objects"
+  }
+]

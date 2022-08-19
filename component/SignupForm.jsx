@@ -53,25 +53,34 @@ const MySelect = ({ label, ...props }) => {
   );
 };
 
-function ListItem(props) {
-  return <li>{props.value}</li>;
-}
 
-function NumberList(props) {
-  const numbers = props.numbers;
-  const listItems = numbers.map((number) =>
-    <ListItem key={number.toString()} value={number} />
-  );
-  return (
-    <ul>
-      {listItems}
-    </ul>
-  );
-}
+
+
 
 const SignupForm = () => {
   const [errors, setErrors] = useState([]);
   const [errorDisplay, setErrorDisplay] = useState('');
+  const [branchProp, setBranchProp] = useState('');
+
+  function ListItem(props) {
+    return (
+      <li>
+        <a
+          href={`https://stoplight.io/api/v1/projects/cHJqOjIwNjAz/nodes/${props.value}?branch=${branchProp}`}
+        >
+          {props.value}
+        </a>
+      </li>
+    );
+  }
+
+  function NumberList(props) {
+    const numbers = props.numbers;
+    const listItems = numbers.map((number) => (
+      <ListItem key={number.toString()} value={number} />
+    ));
+    return <ul>{listItems}</ul>;
+  }
 
   return (
     <>
@@ -82,11 +91,9 @@ const SignupForm = () => {
           projectId: '',
         }}
         onSubmit={async (values, { setSubmitting }) => {
-          console.log(
-            '🚀 ~ file: SignupForm.jsx ~ line 112 ~ onSubmit={ ~ values',
-            values
-          );
-
+          setErrorDisplay('Submitting...');
+          setBranchProp(values.branch);
+          
           async function postData(url = '', data = {}) {
             const response = await fetch(url, {
               method: 'POST',
@@ -94,7 +101,15 @@ const SignupForm = () => {
             });
             return response.json();
           }
+
           const result = await postData('/api/brokenSlugs', values);
+          
+          // console.log(
+          //   '🚀 ~ file: SignupForm.jsx ~ line 112 ~ onSubmit={ ~ values',
+          //   values
+          // );
+          // console.log("🚀 ~ file: SignupForm.jsx ~ line 102 ~ onSubmit={ ~ result", result)
+
           result.length ? setErrorDisplay('Results:') : setErrorDisplay('No results found!') 
           setErrors(result);
           setSubmitting(false);
